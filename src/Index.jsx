@@ -1,0 +1,135 @@
+import { HeaderComponent } from "./components/HeaderComponent"
+import { FooterComponent } from "./components/FooterComponent";
+import { Navigation, Autoplay } from 'swiper/modules';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+
+import capaments from './img/swiper/campaments.jpg'
+import equip from './img/equipo.jpg'
+import escola from './img/_MG_6815.jpg'
+import extraescolars from './img/extraescolars/legoblocks/1.jpg'
+
+import Aos from "aos";
+
+import { useEffect } from "react";
+
+import pic1 from './img/swiper/campaments.jpg'
+import { Link } from "react-router-dom";
+
+export function Index(){
+
+    useEffect(() =>{
+        Aos.init();
+    }, [])
+
+    return (
+        <>
+    
+            <HeaderComponent />
+            <div className="container">
+                <div className="img-title">
+                <Swiper
+                    modules={[Autoplay, Navigation]}
+                    navigation
+                    autoplay={{
+                        "delay": 5000,
+                        "disableOnInteraction": false
+                    }}
+                    spaceBetween={50}
+                    slidesPerView={1}
+                    onSlideChange={() => console.log('slide change')}
+                    onSwiper={(swiper) => console.log(swiper)}
+                >
+                    <SwiperSlide>
+                        <div className="absolute-title">
+                                    <a href="campaments/campaments.html">
+                                        <h1>Campaments</h1>
+                                    </a>
+                                    <p>Viure és l'actitud d'omplir la vida</p>
+                        </div>
+                        <img className="swiper-img" src={pic1} alt="" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="absolute-title">
+                            <a href="animacions/animacions.html">
+                                <h1>Animacions</h1>
+                            </a>
+                            <p>Viure és l'actitud d'omplir la vida</p>
+                        </div>
+                        <img className="swiper-img" src={equip} alt="" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="absolute-title">
+                                <a href="escoles-de-vacances/escoles-de-vacances.html">
+                                    <h1>Escola de Vacances</h1>
+                                </a>
+                                <p>Viure és l'actitud d'omplir la vida</p>
+                        </div>
+                        <img className="swiper-img" src={escola} alt="" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="absolute-title">
+                            <a href="extraescolars/extraescolars">
+                                <h1>Extraescolars</h1>
+                            </a>
+                            <p>L'art d'ensenyar és l'art d'ajudar a descobrir</p>
+                        </div>
+                        <img className="swiper-img" src={extraescolars} alt=""/>
+                    </SwiperSlide>
+                </Swiper>
+                </div>
+                
+            </div>
+            <section className="activities">
+            <div className="container">
+                <h2 className="section-title">Les Nostres Activitats</h2>
+                <div className="activitiesgrid">
+                    <Link to="/campaments" data-aos="fade-right" data-aos-duration="500" className="card-img-grid" id="firstGrid">
+                        <img src={capaments} alt="" />
+                    </Link>
+                    <Link to="/animacions" data-aos="fade-left" data-aos-duration="2000" className="card-img-grid" id="secGrid">
+                        <img src={equip} alt="" />
+                    </Link>
+                    <Link to="/escolas-de-vacances" data-aos="fade-left" data-aos-duration="1000" className="card-img-grid" id="thirdGrid">
+                        <img src={escola} alt="" />
+                    </Link>
+                    <Link to="/extraescolars" data-aos="fade-right" data-aos-duration="800" className="card-img-grid" id="fourthGrid">
+                        <img src={extraescolars} alt="" />
+                    </Link>
+                </div>
+            </div>
+        </section>
+
+        <section id="aboutus">
+            <div className="container">
+                <h2 className="section-title" data-aos="fade-right">Qui Som</h2>
+                <div className="aboutus">
+                    <div className="about-title" data-aos="fade-right" data-aos-duration="1500">
+                        <h2 className="titleWrapper">
+                            <span className="firstTitle">El nostre objectiu:</span>
+                            <br /> 
+                            <span className="secondTitle">Que somriguis</span>
+                        </h2>
+                        <p>
+                            La nostra passió per la joia infantil és el motor que impulsa la nostra empresa. A Xúquer
+                            Animació, creiem en la màgia de la infància i en la importància de crear moments
+                            inoblidables per als més menuts. La nostra dedicació a la diversió segura i educativa ens ha
+                            convertit en líders en l'organització de camps per a xiquets, escoles d'estiu i
+                            esdeveniments infantils</p>
+                    </div>
+                    <div className="about-img" id="aboutimg" data-aos="fade-left" data-aos-duration="3000">
+                        <img src={equip} alt="" />
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <FooterComponent></FooterComponent>
+
+
+        </>
+    )
+}

@@ -1,0 +1,252 @@
+@keyframes headerAnimation {
+    0%{
+        transform: translateY(-150px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+.fixed-header{
+    display: none;
+    width: 100%; 
+    flex-direction: row;   
+    height: 120px;
+
+    box-shadow: 0px 5px 30px 4px rgba(0,0,0,0.1);
+
+    z-index: 3;
+
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* estándar */
+
+}
+
+.active{
+
+    position: fixed;
+    box-shadow: 0px 5px 30px 4px rgba(0,0,0,0.1);
+    flex-direction: row;
+    z-index: 3;
+    width: 100%;    
+    height: 120px;
+    background-color: white;
+    display: flex;
+
+    animation: 0.2s headerAnimation;
+
+}
+
+.fixed-container{
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+}
+
+.menuBurger{
+    margin-left: auto;
+}
+
+.header-wrapper{
+    background-color: var(--first-color);
+    width: 100%;
+    margin-bottom: 0;
+    box-sizing: border-box;
+}
+
+
+.header{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.list{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.list .nav-element a{
+    color: var(--secondary-brand-color);
+    font-size: 1.2rem;
+    text-decoration: none;
+
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* estándar */
+
+    display: flex;
+    gap: 5px;
+
+}
+
+.list .nav-element{
+
+    position: relative;
+    display: flex;
+    gap: 10px;
+
+    transition: 0.2s;
+
+}
+
+.list .nav-element .dropdown-menu{
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    width: 250px;
+    transform: translateX(20px);
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+
+    z-index: 0;
+
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid var(--primary-brand-color);
+
+    top: 30px;
+
+    transition: 0.5s;
+}
+
+.list .nav-element:hover .dropdown-menu{
+
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(0);
+    z-index: 8;
+
+    box-shadow: 0px 10px 34px 7px rgba(0,0,0,0.1);
+
+}
+
+.list .nav-element .dropdown-menu a{
+
+    margin-block-start: 5px;
+    color: var(--primary-brand-color);
+    font-weight: bold;
+    font-family: 'Comico';
+
+    transition: 0.2s;
+
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* estándar */
+    
+
+}
+
+.list .nav-element .dropdown-menu a:hover{
+    color: black;
+}
+
+.list .nav-element .dropdown-menu p{
+
+    margin-block-start: 5px;
+    color: black;
+    font-family: 'Gambetta';
+
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* estándar */
+
+}
+
+.separation{
+    border-bottom: 1px solid var(--secondary-brand-color);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.list a:hover{
+    opacity: 80%;
+}
+
+.list .nav-element a .rotate{
+    rotate: 90deg;
+    transition: 0.2s;
+}
+
+.list .nav-element a:hover .rotate{
+    rotate: 90deg;
+    transform: translateX(2px);
+}
+
+.title{
+
+    height: 100%;
+
+}
+
+.title img{
+    height: 100px;
+    transition: 0.2s;
+
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* estándar */
+
+}
+
+.title img:hover{
+    transform: scale(105%);
+}
+
+.title a{
+
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* estándar */
+
+}
+
+.title a h2{
+
+    font-family: 'Gambetta';
+    font-weight: 400;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.2em;
+    transform: translateX(-10px);
+
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* estándar */
+
+    transition: 0.5s;
+
+}
+
+.title a:hover h2{
+
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(0px);
+
+}

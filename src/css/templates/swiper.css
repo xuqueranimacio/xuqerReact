@@ -1,0 +1,49 @@
+:root{
+
+    --swiper-navigation-color: black;
+    --swiper-pagination-color: black;
+
+}
+
+.swiper-pagination-bullet-active{
+    background-color: black;
+}
+
+.swiper {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.swiper img{
+    border-radius: var(--border-radius);
+}
+
+.darkbg{
+
+    position: absolute;
+
+    height: 100%;
+    background-color: black;
+    z-index: 0;
+
+}
+
+.mySwiper .swiper .swiper-wrapper .swiper-slide{
+    display: flex;
+    justify-content: center
+}
+
+.swiper-img{
+
+    width: 100% ;
+
+}
+
+.myswiper-img{
+
+    object-fit: contain;
+    object-position: -0em -12em;
+    width: 100%;
+
+}

@@ -1,0 +1,22 @@
+#root{
+    width: 100%;
+}
+
+p{
+    text-align: justify;
+}
+
+.titleWrapper{
+    transition: .2s;
+    position: relative;
+}
+
+.firstTitle{
+    color: var(--terciary-brand-color);
+    transition: .2s;
+}
+
+.secondTitle{
+    color: var(--secondary-brand-color);
+    transition: .2s;
+}

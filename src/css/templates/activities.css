@@ -1,0 +1,205 @@
+.activities {
+    padding-top: 0;
+    height: auto;
+}
+
+.activitiesgrid {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 200px 200px 200px;
+
+    gap: 20px;
+
+}
+
+.activitiesgrid h2 {
+
+    margin-top: 0.83em;
+    margin-bottom: 0.5em;
+
+}
+
+.card {
+    padding: 0;
+}
+
+.card-img-grid {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img-grid::after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    border-radius: var(--border-radius);
+
+    transition: 0.2s;
+}
+
+.card-img-grid:hover::after {
+
+    cursor: pointer;
+    color: var(--secondary-brand-color);
+
+}
+
+.card-img-grid img {
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: var(--border-radius);
+
+}
+
+#firstGrid {
+    grid-row: span 2;
+    font-size: 3rem;
+    color: white;
+}
+
+#firstGrid::after {
+    content: "Campaments";
+    transition: 0.2s;
+}
+
+#secGrid {
+    font-size: 3rem;
+    color: white;
+}
+
+#secGrid::after {
+    content: "Animacions";
+    transition: 0.2s;
+}
+
+#thirdGrid {
+    grid-row: span 2;
+    font-size: 3rem;
+    color: white;
+}
+
+#thirdGrid::after {
+
+    content: "Escola de Vacances";
+    transition: 0.2s;
+
+}
+
+#fourthGrid {
+    font-size: 3rem;
+    color: white;
+}
+
+#fourthGrid::after {
+    content: "Extraescolars";
+    transition: 0.2s;
+}
+
+.activitats-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.activitats-card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 2px solid var(--primary-brand-color);
+    border-radius: var(--border-radius);
+}
+
+.naranja {
+    background-color: var(--primary-brand-color);
+    border-radius: var(--border-radius);
+}
+
+.activitats-card .info {
+    flex-basis: 50%;
+}
+
+.activitats-card .info h1 {
+    font-size: 50px;
+    color: var(--primary-brand-color);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.activitats-card .info p {
+    text-wrap: pretty;
+    color: #636363;
+    font-size: 20px;
+}
+
+.activitats-card .image {
+    flex-basis: 50%;
+    aspect-ratio: 14/9;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+
+.activitats-card .image img {
+    width: 100%;
+    border-radius: var(--border-radius);
+}
+
+.naranja .info h1 {
+    color: white;
+}
+
+.naranja .info p {
+    color: #dadada;
+}
+
+.contact-activitats{
+
+    width: 100%;
+    height: 50px;
+    border-radius: var(--border-radius);
+    border: 2px solid var(--primary-brand-color);
+    background-color: transparent;
+    color: var(--primary-brand-color);
+    font-family: 'DM Serif Display';
+    font-size: 24px;
+
+    transition: 0.2s;
+
+}
+
+.botonrj{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.contact-activitats:hover{
+
+    background-color: var(--primary-brand-color);
+    cursor: pointer;
+    color: white;
+
+}
+
+.botonrj:hover{
+    background-color: white;
+    cursor: pointer;
+    color: var(--primary-brand-color);
+}

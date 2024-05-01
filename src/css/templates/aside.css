@@ -1,0 +1,97 @@
+@keyframes fadeRight {
+    0%{
+        transform: translateX(300px);
+    }
+    100%{
+        transform: 0;
+    }
+}
+
+@keyframes fadeRightOut {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(300px);
+    }
+}
+
+.aside-menu{
+    display: none;
+    position: fixed;
+    width: 300px;
+    height: 100dvh;
+    right: 0;
+    box-sizing: border-box;
+    background-color: white;
+    z-index: 8;
+
+    animation: 0.5s fadeRightOut;
+}
+
+.activeAside{
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    animation: 0.5s fadeRight;
+}
+
+.aside-menu .asideList{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+}
+
+.aside-menu .asideList a{
+
+    text-decoration: none;
+    font-size: 1.5em;
+    transition: 0.2s;
+    color: var(--primary-brand-color);
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--secondary-brand-color);
+
+}
+
+.aside-menu .asideList a:hover{
+
+    color: rgb(46, 46, 46);
+    transform: translateX(10px);
+
+}
+
+.absolute-img{
+    width: 100%;
+    box-sizing: border-box;
+    position: absolute;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    bottom: 0;
+}
+
+.absolute-img a{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.absolute-img img{
+
+    width: 50%;
+
+}
+
+.xClose{
+    width: 100%;
+    padding: 20px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: right;
+    box-sizing: border-box;
+}
