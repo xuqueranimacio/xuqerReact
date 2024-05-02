@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
 import myImg from "../img/logo/logo-xuquer-animacio-vectors_page-0001.png"
+import xcross from "../img/XCloseDelete.svg"
 import { useEffect } from "react";
 
 export function AsideList(){
@@ -26,7 +27,7 @@ export function AsideList(){
         <aside className="aside-menu" id="asidePanel">
 
         <div className="xClose" id="closeAside">
-            <img src="../img/XCloseDelete.svg" alt="" />
+            <img src={xcross} alt="" />
         </div>
 
         <div className="asideList">
