@@ -11,14 +11,14 @@ export function FooterComponent(){
                 </div>
                 <div className="footer-section">
                     <h2>Contacte</h2>
-                    <a>📲 +34 621 319 967</a>
-                    <a href="mailto:xuqueranimacio@hotmail.com">📩 Correu Electrónic</a>
-                    <a>📍 Albalat de la Ribera, València</a>
+                    <a>+34 621 319 967</a>
+                    <a href="mailto:xuqueranimacio@hotmail.com">Correu Electrònic</a>
+                    <a>Albalat de la Ribera, València</a>
                 </div>
                 <div className="footer-section">
                     <h2>Qui Som</h2>
-                    <a href="">🎈Empresa d’animació sociocultural</a>
-                    <a href="">🎉Tot tipus d’events</a>
+                    <a href="">Empresa d’animació sociocultural</a>
+                    <a href="">Tot tipus d’events</a>
                 </div>
                 <div className="footer-section">
                     <h2>Activitats</h2>

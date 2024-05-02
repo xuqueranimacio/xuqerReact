@@ -43,36 +43,36 @@ export function Index(){
                 >
                     <SwiperSlide>
                         <div className="absolute-title">
-                                    <a href="campaments/campaments.html">
-                                        <h1>Campaments</h1>
-                                    </a>
-                                    <p>Viure és l'actitud d'omplir la vida</p>
+                            <Link to="/campaments">
+                                <h1>Campaments</h1>
+                            </Link>
+                            <p>Viure és l'actitud d'omplir la vida</p>
                         </div>
                         <img className="swiper-img" src={pic1} alt="" />
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="absolute-title">
-                            <a href="animacions/animacions.html">
+                            <Link to="/animacions">
                                 <h1>Animacions</h1>
-                            </a>
-                            <p>Viure és l'actitud d'omplir la vida</p>
+                            </Link>
+                            <p>Als simples moments tenim les majors alegries</p>
                         </div>
                         <img className="swiper-img" src={equip} alt="" />
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="absolute-title">
-                                <a href="escoles-de-vacances/escoles-de-vacances.html">
+                                <Link to="/escoles-de-vacances">
                                     <h1>Escola de Vacances</h1>
-                                </a>
-                                <p>Viure és l'actitud d'omplir la vida</p>
+                                </Link>
+                                <p>Sols els que creuen en la magia estan destinats a trobar-la</p>
                         </div>
                         <img className="swiper-img" src={escola} alt="" />
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="absolute-title">
-                            <a href="extraescolars/extraescolars">
+                            <Link to="/extraescolars">
                                 <h1>Extraescolars</h1>
-                            </a>
+                            </Link>
                             <p>L'art d'ensenyar és l'art d'ajudar a descobrir</p>
                         </div>
                         <img className="swiper-img" src={extraescolars} alt=""/>

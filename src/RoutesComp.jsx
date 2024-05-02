@@ -27,6 +27,12 @@ import { EPati } from './pages/extraescolars/EPati';
 
 // TODO ANIMACIONS, NOSALTRES Y EXTRAESCOLARS
 import { Animacions } from './pages/animacions/Animacions';
+import { AAniv } from './pages/animacions/AAniv';
+import { AExcur } from './pages/animacions/AExcur';
+import { AGim } from './pages/animacions/AGim';
+import { AHall } from './pages/animacions/AHall';
+
+
 import { Nosaltres } from './pages/nosaltres/Nosaltres';
 
 
@@ -55,6 +61,10 @@ export const RoutesComp = () => {
 
                 {/* ANIMACIONS */}
                 <Route path="/animacions" element={<Animacions />} />
+                <Route path="/animacions/excursions" element={<AExcur />} />
+                <Route path="/animacions/aniversaris" element={<AAniv />} />
+                <Route path="/animacions/gimcanes" element={<AGim />} />
+                <Route path="/animacions/halloween" element={<AHall />} />
 
                 {/* EXTRAESCOLARS */}
                 <Route path="/extraescolars" element={<Extraescolars />} />
