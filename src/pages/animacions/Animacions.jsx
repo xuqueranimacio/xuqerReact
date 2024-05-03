@@ -5,14 +5,14 @@ import { ActivitatsCard } from "../../components/ActivitatsCard"
 import { ActivitatsCardNaranja } from "../../components/ActivitatsCardNaranja"
 import { FooterComponent } from "../../components/FooterComponent"
 
-import musical from "../../img/animacions/musical/11- que festín.jpg"
+import musical from "../../img/animacions/musical/Principal.jpg"
 import aniversaris from "../../img/animacions/aniversaris/Principal.jpg"
 import excursions from "../../img/animacions/excursions/Principal.jpg"
-import scaperoom from "../../img/animacions/scape room/IMG_20221112_170538.jpg"
-import jocspopulars from "../../img/animacions/jocs populars/IMG_20231228_120443.jpg"
+import scaperoom from "../../img/animacions/scape room/Principal.jpg"
+import jocspopulars from "../../img/animacions/jocs populars/Principal.jpg"
 import gimcanes from "../../img/animacions/gimcanes/Principal.jpg"
 import halloween from "../../img/animacions/halloween/principal.jpg"
-import tallers from "../../img/animacions/tallers/IMG_20230311_170813.jpg"
+import tallers from "../../img/animacions/tallers/Principal.jpg"
 
 import { useEffect } from "react"
 

@@ -31,9 +31,13 @@ import { AAniv } from './pages/animacions/AAniv';
 import { AExcur } from './pages/animacions/AExcur';
 import { AGim } from './pages/animacions/AGim';
 import { AHall } from './pages/animacions/AHall';
-
+import { AMusic } from './pages/animacions/AMusic';
+import { AScap } from './pages/animacions/AScap';
+import { AJocs } from './pages/animacions/AJocs';
+import { ATall } from './pages/animacions/ATall';
 
 import { Nosaltres } from './pages/nosaltres/Nosaltres';
+
 
 
 
@@ -65,6 +69,10 @@ export const RoutesComp = () => {
                 <Route path="/animacions/aniversaris" element={<AAniv />} />
                 <Route path="/animacions/gimcanes" element={<AGim />} />
                 <Route path="/animacions/halloween" element={<AHall />} />
+                <Route path="/animacions/musical" element={<AMusic />} />
+                <Route path="/animacions/scape-room" element={<AScap />} />
+                <Route path="/animacions/jocs-populars" element={<AJocs />} />
+                <Route path="/animacions/tallers" element={<ATall />} />
 
                 {/* EXTRAESCOLARS */}
                 <Route path="/extraescolars" element={<Extraescolars />} />
