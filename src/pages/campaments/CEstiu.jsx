@@ -16,9 +16,9 @@ import img5 from "/src/img/campaments/estiu/4.jpg"
 import { FooterComponent } from "../../components/FooterComponent";
 
 export const imageUrls = [
-    '/src/img/campaments/estiu/1.jpg',
-    '/src/img/campaments/estiu/2.jpg',
-    '/src/img/campaments/estiu/3.jpg'
+    img1,
+    img2,
+    img3
 ];
 
 
