@@ -32,13 +32,13 @@ export function HeaderComponent(){
                                     <Link to="/nosaltres/metodologia" className="info-title">Metodologia</Link>
                                 </div>
                                 <div className="separation">
-                                    <Link href="" className="info-title">Valors</Link>
+                                    <Link to="/nosaltres/valors" className="info-title">Valors</Link>
                                 </div>
                                 <div className="separation">
-                                    <Link href="" className="info-title">Equip</Link>
+                                    <Link to="/nosaltres/equip" className="info-title">Equip</Link>
                                 </div>
                                 <div className="separation">
-                                    <Link href="" className="info-title">Treballa amb Nosaltres</Link>
+                                    <Link to="/contacte" className="info-title">Treballa amb Nosaltres</Link>
                                 </div>
                             </div>
                         </div>
@@ -142,9 +142,9 @@ export function HeaderComponent(){
                         </div>
 
                         <div className="nav-element">
-                            <a href="contacte.html">
+                            <Link to="/contacte">
                                 <span>Contacte</span>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     <div className="menuBurger">

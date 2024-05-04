@@ -35,13 +35,19 @@ import { AMusic } from './pages/animacions/AMusic';
 import { AScap } from './pages/animacions/AScap';
 import { AJocs } from './pages/animacions/AJocs';
 import { ATall } from './pages/animacions/ATall';
+import { AJFusta } from './pages/animacions/AJFusta';
 
 //NOSALTRES
 import { Nosaltres } from './pages/nosaltres/Nosaltres';
 import { QuiSom } from './pages/nosaltres/QuiSom';
 
+// CONTACTE
+import { Contacte } from './pages/Contacte';
+import { Equip } from './pages/nosaltres/Equip';
+
 // NOT FOUND
 import { NotFound } from './pages/NotFount';
+import { Metodologia } from './pages/nosaltres/Metodologia';
 
 
 
@@ -75,6 +81,7 @@ export const RoutesComp = () => {
                 <Route path="/animacions/halloween" element={<AHall />} />
                 <Route path="/animacions/musical" element={<AMusic />} />
                 <Route path="/animacions/scape-room" element={<AScap />} />
+                <Route path="/animacions/jocs-de-fusta" element={<AJFusta />} />
                 <Route path="/animacions/jocs-populars" element={<AJocs />} />
                 <Route path="/animacions/tallers" element={<ATall />} />
 
@@ -87,12 +94,16 @@ export const RoutesComp = () => {
                 <Route path="/extraescolars/balls-urbans" element={<EDiver />} />
                 <Route path="/extraescolars/patinatge" element={<EPati />} />
 
-                {/* EXTRAESCOLARS */}
+                {/* NOSALTRES */}
                 <Route path="/nosaltres" element={<Nosaltres />} />
                 <Route path="/nosaltres/qui-som" element={<QuiSom />} />
-                <Route path="/nosaltres/metodologia" element={<Nosaltres />} />
-                <Route path="/nosaltres/valors" element={<Nosaltres />} />
+                <Route path="/nosaltres/metodologia" element={<Metodologia />} />
+                <Route path="/nosaltres/valors" element={<Equip />} />
+                <Route path="/nosaltres/equip" element={<Equip />} />
                 <Route path="/nosaltres/treballa-amb-nosaltres" element={<Nosaltres />} />
+
+                {/* CONTACTE */}
+                <Route path="/contacte" element={<Contacte />} />
 
                 {/* NOT FOUND */}
                 <Route path="*" element={<NotFound />} />

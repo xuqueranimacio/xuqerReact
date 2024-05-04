@@ -31,6 +31,10 @@ p{
     align-items: center;
     justify-content: center;
     text-align: center;
-    gap: 50px;
+    flex-direction: column;
     height: 60dvh;
+}
+
+.pageCenter h1{
+    margin: 0;
 }
