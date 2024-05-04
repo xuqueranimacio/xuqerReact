@@ -26,10 +26,10 @@ export function HeaderComponent(){
                             </Link>
                             <div className="dropdown-menu">
                                 <div className="separation">
-                                    <Link href="" className="info-title">Qui Som</Link>
+                                    <Link to="/nosaltres/qui-som" className="info-title">Qui Som</Link>
                                 </div>
                                 <div className="separation">
-                                    <Link href="nosaltres/metodologia.html" className="info-title">Metodologia</Link>
+                                    <Link to="/nosaltres/metodologia" className="info-title">Metodologia</Link>
                                 </div>
                                 <div className="separation">
                                     <Link href="" className="info-title">Valors</Link>
@@ -91,25 +91,25 @@ export function HeaderComponent(){
                             </Link>
                             <div className="dropdown-menu">
                                 <div className="separation">
-                                    <a href="animacions/aniversaris.html" className="info-title">Aniversaris</a>
+                                    <Link to="/animacions/aniversaris.html" className="info-title">Aniversaris</Link>
                                 </div>
                                 <div className="separation">
-                                    <a href="animacions/comunions.html" className="info-title">Comunions</a>
+                                    <Link to="/animacions/halloween" className="info-title">Halloween</Link>
                                 </div>
                                 <div className="separation">
-                                    <a href="animacions/tallers.html" className="info-title">Tallers</a>
+                                    <Link to="/animacions/tallers" className="info-title">Tallers</Link>
                                 </div>
                                 <div className="separation">
-                                    <a href="animacions/scape-room.html" className="info-title">Scape Room</a>
+                                    <Link to="/animacions/scape-room" className="info-title">Scape Room</Link>
                                 </div>
                                 <div className="separation">
-                                    <a href="animacions/jocs-populars.html" className="info-title">Jocs Populars</a>
+                                    <Link to="/animacions/jocs-populars" className="info-title">Jocs Populars</Link>
                                 </div>
                                 <div className="separation">
-                                    <a href="animacions/gimcanes.html" className="info-title">Gimcanes</a>
+                                    <Link to="/animacions/gimcanes" className="info-title">Gimcanes</Link>
                                 </div>
                                 <div className="separation">
-                                    <a href="animacions/animacions.html" className="info-title">Més...</a>
+                                    <Link to="/animacions" className="info-title">Més...</Link>
                                 </div>
                             </div>
                         </div>
@@ -121,25 +121,22 @@ export function HeaderComponent(){
                             </Link>
                             <div className="dropdown-menu">
                                 <div className="separation">
-                                    <a href="" className="info-title">LegoBlocks</a>
+                                    <Link to="/extraescolars/legoblocks" className="info-title">LegoBlocks</Link>
                                 </div>
                                 <div className="separation">
-                                    <a href="" className="info-title">Diverciencia</a>
+                                    <Link to="/extraescolars/diverciencia" className="info-title">Diverciència</Link>
                                 </div>
                                 <div className="separation">
-                                    <a href="" className="info-title">Minixef</a>
+                                    <Link to="/extraescolars/minixef" className="info-title">Minixef</Link>
                                 </div>
                                 <div className="separation">
-                                    <a href="" className="info-title">Imaginart</a>
+                                    <Link to="/extraescolars/imaginart" className="info-title">Imaginart</Link>
                                 </div>
                                 <div className="separation">
-                                    <a href="" className="info-title">Balls Urbans</a>
+                                    <Link to="/extraescolars/patinatge" className="info-title">Patinatge</Link>
                                 </div>
                                 <div className="separation">
-                                    <a href="" className="info-title">Patinatge</a>
-                                </div>
-                                <div className="separation">
-                                    <a href="" className="info-title">I moltes més...</a>
+                                    <Link to="/extraescolars" className="info-title">I moltes més...</Link>
                                 </div>
                             </div>
                         </div>

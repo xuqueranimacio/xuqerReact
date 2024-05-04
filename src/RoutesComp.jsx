@@ -25,7 +25,7 @@ import { EMini } from './pages/extraescolars/EMini';
 import { EImag } from './pages/extraescolars/EImag';
 import { EPati } from './pages/extraescolars/EPati';
 
-// TODO ANIMACIONS, NOSALTRES Y EXTRAESCOLARS
+// ANIMACIONS
 import { Animacions } from './pages/animacions/Animacions';
 import { AAniv } from './pages/animacions/AAniv';
 import { AExcur } from './pages/animacions/AExcur';
@@ -36,8 +36,12 @@ import { AScap } from './pages/animacions/AScap';
 import { AJocs } from './pages/animacions/AJocs';
 import { ATall } from './pages/animacions/ATall';
 
+//NOSALTRES
 import { Nosaltres } from './pages/nosaltres/Nosaltres';
+import { QuiSom } from './pages/nosaltres/QuiSom';
 
+// NOT FOUND
+import { NotFound } from './pages/NotFount';
 
 
 
@@ -83,8 +87,17 @@ export const RoutesComp = () => {
                 <Route path="/extraescolars/balls-urbans" element={<EDiver />} />
                 <Route path="/extraescolars/patinatge" element={<EPati />} />
 
-
+                {/* EXTRAESCOLARS */}
                 <Route path="/nosaltres" element={<Nosaltres />} />
+                <Route path="/nosaltres/qui-som" element={<QuiSom />} />
+                <Route path="/nosaltres/metodologia" element={<Nosaltres />} />
+                <Route path="/nosaltres/valors" element={<Nosaltres />} />
+                <Route path="/nosaltres/treballa-amb-nosaltres" element={<Nosaltres />} />
+
+                {/* NOT FOUND */}
+                <Route path="*" element={<NotFound />} />
+
+
             </Routes>
         </Router>
     )

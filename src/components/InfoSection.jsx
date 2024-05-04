@@ -69,3 +69,33 @@ export function InfoSectionCardLeft(props){
         </>
     )
 }
+
+export function InfoSectionWrapperCustom(props){
+    return(
+        <>
+
+            <section id="secondsection">
+                <div className="container">
+                    <h2 className="section-title">{props.title}</h2>
+                    
+                    {props.children}
+
+                    <div className="info-section">
+                        <div className="about-title">
+                            <h3 className="contact-title">Vols parlar amb nosaltres?</h3>
+                        </div>
+                        <div className="about-title">
+                            <Link to="/contacte">
+                                <button className="contact-activitats">Contacta'ns</button>
+                            </Link>
+                        </div>
+                    </div>
+                            
+
+                </div>
+
+            </section>
+        
+        </>
+    )
+}

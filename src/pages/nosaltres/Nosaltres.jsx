@@ -5,14 +5,11 @@ import { ActivitatsCard } from "../../components/ActivitatsCard"
 import { ActivitatsCardNaranja } from "../../components/ActivitatsCardNaranja"
 import { FooterComponent } from "../../components/FooterComponent"
 
-import musical from "../../img/animacions/musical/Principal.jpg"
-import aniversaris from "../../img/animacions/aniversaris/Principal.jpg"
-import excursions from "../../img/animacions/excursions/Principal.jpg"
+import quisom from "../../img/nosaltres/quisom/Principal.jpg"
+import metodologia from "../../img/nosaltres/metodologia/1.png"
+import valors from "../../img/nosaltres/metodologia/2.png"
 import scaperoom from "../../img/animacions/scape room/Principal.jpg"
 import jocspopulars from "../../img/animacions/jocs populars/Principal.jpg"
-import gimcanes from "../../img/animacions/gimcanes/Principal.jpg"
-import halloween from "../../img/animacions/halloween/principal.jpg"
-import tallers from "../../img/animacions/tallers/Principal.jpg"
 
 import { useEffect } from "react"
 
@@ -23,63 +20,42 @@ export function Nosaltres(){
         <>
 
             <HeaderComponent />
-            <SectionTitle>Animacions</SectionTitle>
+            <SectionTitle>Nosaltres</SectionTitle>
             <ActivitatsMenu>
                 <ActivitatsCard 
-                    titulo="Aniversaris" 
+                    titulo="Qui Som" 
                     texto="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia tempore alias qui sequi odit
                     repudiandae recusandae corrupti facere praesentium eligendi." 
-                    imgurl={aniversaris}
-                    pagina="/campaments/estiu"
+                    imgurl={quisom}
+                    pagina="/nosaltres/qui-som"
                 />
                 <ActivitatsCardNaranja 
-                    titulo="Musical" 
+                    titulo="Metodologia" 
                     texto="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia tempore alias qui sequi odit
                     repudiandae recusandae corrupti facere praesentium eligendi." 
-                    imgurl={musical}
+                    imgurl={metodologia}
                     pagina="/campaments/nadal"
                 />
                 <ActivitatsCard 
-                    titulo="Excursions" 
+                    titulo="Valors" 
                     texto="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia tempore alias qui sequi odit
                     repudiandae recusandae corrupti facere praesentium eligendi." 
-                    imgurl={excursions}
+                    imgurl={valors}
                     pagina="/campaments/pasqua"
                 />
                 <ActivitatsCardNaranja 
-                    titulo="Scape Room" 
+                    titulo="Equip" 
                     texto="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia tempore alias qui sequi odit
                     repudiandae recusandae corrupti facere praesentium eligendi." 
                     imgurl={scaperoom}
                     pagina="/campaments/adults"
                 />
                 <ActivitatsCard 
-                    titulo="Jocs Populars" 
+                    titulo="Treballa amb Nosaltres" 
                     texto="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia tempore alias qui sequi odit
                     repudiandae recusandae corrupti facere praesentium eligendi." 
                     imgurl={jocspopulars}
                     pagina="/campaments/pasqua"
-                />
-                <ActivitatsCardNaranja 
-                    titulo="Gimcanes" 
-                    texto="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia tempore alias qui sequi odit
-                    repudiandae recusandae corrupti facere praesentium eligendi." 
-                    imgurl={gimcanes}
-                    pagina="/campaments/adults"
-                />
-                <ActivitatsCard 
-                    titulo="Halloween" 
-                    texto="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia tempore alias qui sequi odit
-                    repudiandae recusandae corrupti facere praesentium eligendi." 
-                    imgurl={halloween}
-                    pagina="/campaments/pasqua"
-                />
-                <ActivitatsCardNaranja 
-                    titulo="Tallers" 
-                    texto="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia tempore alias qui sequi odit
-                    repudiandae recusandae corrupti facere praesentium eligendi." 
-                    imgurl={tallers}
-                    pagina="/campaments/adults"
                 />
             </ActivitatsMenu>
 

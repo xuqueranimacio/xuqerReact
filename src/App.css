@@ -16,7 +16,21 @@ p{
     transition: .2s;
 }
 
+.firstTitleCustom{
+    color: var(--secondary-brand-color);
+    font-size: 4rem;
+}
+
 .secondTitle{
     color: var(--secondary-brand-color);
     transition: .2s;
+}
+
+.pageCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    height: 60dvh;
 }
