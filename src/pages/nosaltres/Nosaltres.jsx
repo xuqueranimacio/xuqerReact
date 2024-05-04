@@ -34,28 +34,28 @@ export function Nosaltres(){
                     texto="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia tempore alias qui sequi odit
                     repudiandae recusandae corrupti facere praesentium eligendi." 
                     imgurl={metodologia}
-                    pagina="/campaments/nadal"
+                    pagina="/nosaltres/metodologia"
                 />
                 <ActivitatsCard 
                     titulo="Valors" 
                     texto="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia tempore alias qui sequi odit
                     repudiandae recusandae corrupti facere praesentium eligendi." 
                     imgurl={valors}
-                    pagina="/campaments/pasqua"
+                    pagina="/nosaltres/valors"
                 />
                 <ActivitatsCardNaranja 
                     titulo="Equip" 
                     texto="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia tempore alias qui sequi odit
                     repudiandae recusandae corrupti facere praesentium eligendi." 
                     imgurl={scaperoom}
-                    pagina="/campaments/adults"
+                    pagina="/nosaltres/equip"
                 />
                 <ActivitatsCard 
                     titulo="Treballa amb Nosaltres" 
                     texto="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia tempore alias qui sequi odit
                     repudiandae recusandae corrupti facere praesentium eligendi." 
                     imgurl={jocspopulars}
-                    pagina="/campaments/pasqua"
+                    pagina="/contacte"
                 />
             </ActivitatsMenu>
 

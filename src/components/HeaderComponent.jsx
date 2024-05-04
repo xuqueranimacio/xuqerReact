@@ -91,7 +91,7 @@ export function HeaderComponent(){
                             </Link>
                             <div className="dropdown-menu">
                                 <div className="separation">
-                                    <Link to="/animacions/aniversaris.html" className="info-title">Aniversaris</Link>
+                                    <Link to="/animacions/aniversaris" className="info-title">Aniversaris</Link>
                                 </div>
                                 <div className="separation">
                                     <Link to="/animacions/halloween" className="info-title">Halloween</Link>

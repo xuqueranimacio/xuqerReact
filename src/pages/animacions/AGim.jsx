@@ -35,27 +35,23 @@ export function AGim() {
             />
             <InfoSectionWrapper>
                 <InfoSectionCardRight imgURL={img2}>
-                    Els nostres <b>campaments de multiaventura</b> són experiències emocionants
-                    i variades que combinen diferents activitats a l'aire lliure per a
-                    oferir als i les participants una aventura integral. Aquests campaments
-                    se centren a proporcionar als xiquets i xiquetes una àmplia gamma d'experiències
-                    esportives i educatives. Algunes de les característiques a destacar són:
+                    ¡Endinsa't en una aventura plena de diversió i emoció amb les gimcanes de Xúquer Animació!
                 </InfoSectionCardRight>
                 <InfoSectionCardLeft imgURL={img3}>
-                    <b>Entorn Natural</b>: les activitats es porten a terme en entorns naturals, com boscos, muntanyes
-                    o pinades. Aquesta connexió amb la naturalesa no sols proporciona un component estètic sinó
-                    que també promou el respecte pel medi ambient i l'apreciació de la biodiversitat.
+                    Oferim una amplia gama d’emocionants gimcanes dissenyades per desafiar les teues habilitats,
+                    promoure el treball en equip i brindar-te moments inoblidables. Des de competicions de curses
+                    d'obstacles fins a emocionants conquestes del tresor.
                 </InfoSectionCardLeft>
                 <InfoSectionCardRight imgURL={img4}>
-                    <b>Aventura i Emoció</b>: la diversitat d'activitats i la naturalesa desafiadora d'algunes
-                    d'elles proporcionen una dosi d'emoció i adrenalina. Això no sols fa que l'experiència
-                    siga divertida, sinó que també ajuda a superar pors i a construir una mentalitat
-                    positiva davant els desafiaments.
+                    Organitzem gimcanes per a una varietat d'esdeveniments.
+                    A més, les nostres gimcanes són una excel·lent manera de promoure la cooperació,
+                    el lideratge i la resolució de problemes entre els participants. Treballant junts per superar
+                    desafiaments i completar tasques, els equips reforcen els seus llaços i creen records inoblidables
+                    que perduraran molt temps després que acabe l'aventura.
+
                 </InfoSectionCardRight>
                 <InfoSectionCardLeft imgURL={img5}>
-                    <b>Seguretat i Supervisió</b>: malgrat l'emoció i l'aventura, la seguretat dels participants
-                    és una prioritat. Els campaments multiaventura compten amb personal capacitat i mesures
-                    de seguretat per a garantir que totes les activitats es realitzen de manera segura.
+                    Contacta'ns avui mateix per a obtenir més informació i reserva el teu dia de diversió garantida!
                 </InfoSectionCardLeft>
             </InfoSectionWrapper>
             <GalleryWrapper>

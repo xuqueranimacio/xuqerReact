@@ -13,6 +13,7 @@ import jocspopulars from "../../img/animacions/jocs populars/Principal.jpg"
 import gimcanes from "../../img/animacions/gimcanes/Principal.jpg"
 import halloween from "../../img/animacions/halloween/principal.jpg"
 import tallers from "../../img/animacions/tallers/Principal.jpg"
+import jocsdefusta from "../../img/animacions/jocs de fusta/Principal.png"
 
 import { useEffect } from "react"
 
@@ -27,61 +28,67 @@ export function Animacions() {
             <ActivitatsMenu>
                 <ActivitatsCard
                     titulo="Aniversaris"
-                    texto="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia tempore alias qui sequi odit
-                    repudiandae recusandae corrupti facere praesentium eligendi."
+                    texto="A la nostra cultura valenciana els aniversaris son essencials per a crear
+                    moments inoblidables i celebrar amb alegria cada any que passa."
                     imgurl={aniversaris}
                     pagina="/animacions/aniversaris"
                 />
 
                 <ActivitatsCardNaranja
                     titulo="Musical"
-                    texto="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia tempore alias qui sequi odit
-                    repudiandae recusandae corrupti facere praesentium eligendi."
+                    texto="Els musicals de Xúquer Animació són molt més que simples espectacles; són moments de
+                     creativitat i diversió, en la que els nostres xiquets, xiquetes i familiars gaudeixen d’un dia inoblidable."
                     imgurl={musical}
                     pagina="/animacions/musical"
                 />
                 <ActivitatsCard
                     titulo="Halloween"
-                    texto="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia tempore alias qui sequi odit
-                    repudiandae recusandae corrupti facere praesentium eligendi."
+                    texto="¡Prepara't per viure  una experiència terroríficament emocionant amb els nostres passatges del terror!"
                     imgurl={halloween}
                     pagina="/animacions/halloween"
                 />
 
                 <ActivitatsCardNaranja
                     titulo="Scape Room"
-                    texto="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia tempore alias qui sequi odit
-                    repudiandae recusandae corrupti facere praesentium eligendi."
+                    texto="¡Descobreix una aventura plena d'intriga i emoció amb els nostres escape romos.
+                    Endinsa’t en un desafiament on el temps corre en contra teua i sols el teu enginy i treball en equip et portaran a la victòria."
                     imgurl={scaperoom}
                     pagina="/animacions/scape-room"
                 />
                 <ActivitatsCard
                     titulo="Jocs Populars"
-                    texto="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia tempore alias qui sequi odit
-                    repudiandae recusandae corrupti facere praesentium eligendi."
+                    texto="Els nostres jocs populars són una excel·lent manera de fomentar el treball en equip i la competència
+                    amistosa entre els participants."
                     imgurl={jocspopulars}
                     pagina="/animacions/jocs-populars"
                 />
                 <ActivitatsCardNaranja
                     titulo="Gimcanes"
-                    texto="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia tempore alias qui sequi odit
-                    repudiandae recusandae corrupti facere praesentium eligendi."
+                    texto="¡Endinsa't en una aventura plena de diversió i emoció amb les gimcanes de Xúquer Animació!"
                     imgurl={gimcanes}
                     pagina="/animacions/gimcanes"
                 />
                 <ActivitatsCard
                     titulo="Excursions"
-                    texto="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia tempore alias qui sequi odit
-                    repudiandae recusandae corrupti facere praesentium eligendi."
+                    texto="Organitzem excursions per a grups menuts i grans, adaptades als teus interessos i preferències."
                     imgurl={excursions}
                     pagina="/animacions/excursions"
                 />
                 <ActivitatsCardNaranja
                     titulo="Tallers"
-                    texto="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia tempore alias qui sequi odit
-                    repudiandae recusandae corrupti facere praesentium eligendi."
+                    texto="T’oferim una àmplia varietat de tallers dissenyats per a totes les edats i interessos. Des
+                    de tallers de manualitats i art fins a tallers de cuina i música, tenim alguna cosa per a cada
+                    gust i preferència."
                     imgurl={tallers}
                     pagina="/animacions/tallers"
+                />
+                <ActivitatsCard
+                    titulo="Jocs de Fusta"
+                    texto="Els nostres jocs de fusta són perfectes per portar a esdeveniments a l'aire lliure, festes.
+                    Són duradors, resistents i estan fets per a resistir el pas del temps, la qual cosa els converteix 
+                    en una excel·lent inversió per a gaudir durant molts anys"
+                    imgurl={jocsdefusta}
+                    pagina="/animacions/jocs-de-fusta"
                 />
             </ActivitatsMenu>
 

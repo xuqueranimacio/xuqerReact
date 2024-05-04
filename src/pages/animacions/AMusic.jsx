@@ -36,27 +36,21 @@ export function AMusic() {
             />
             <InfoSectionWrapper>
                 <InfoSectionCardRight imgURL={img2}>
-                    Els nostres <b>campaments de multiaventura</b> són experiències emocionants
-                    i variades que combinen diferents activitats a l'aire lliure per a
-                    oferir als i les participants una aventura integral. Aquests campaments
-                    se centren a proporcionar als xiquets i xiquetes una àmplia gamma d'experiències
-                    esportives i educatives. Algunes de les característiques a destacar són:
+                    El musical realitzat per Xúquer Animació no sols és una experiència d'entreteniment,
+                    sinó també un vehicle per a l'estímul de l'art i la cultura en la que els xiquets i
+                    xiquetes es converteixen en auténtics protagonistes i directors d’un musical de película.
                 </InfoSectionCardRight>
                 <InfoSectionCardLeft imgURL={img3}>
-                    <b>Entorn Natural</b>: les activitats es porten a terme en entorns naturals, com boscos, muntanyes
-                    o pinades. Aquesta connexió amb la naturalesa no sols proporciona un component estètic sinó
-                    que també promou el respecte pel medi ambient i l'apreciació de la biodiversitat.
+                    Els nostres musicals radiquen en diversos aspectes fonamentals, donant  oportunitat per al
+                    desenvolupament i la diversió del nostres menuts talents locals.
                 </InfoSectionCardLeft>
                 <InfoSectionCardRight imgURL={img4}>
-                    <b>Aventura i Emoció</b>: la diversitat d'activitats i la naturalesa desafiadora d'algunes
-                    d'elles proporcionen una dosi d'emoció i adrenalina. Això no sols fa que l'experiència
-                    siga divertida, sinó que també ajuda a superar pors i a construir una mentalitat
-                    positiva davant els desafiaments.
+                    Mitjançant les nostres produccions, portem a escena històries captivadores que treballen
+                    emocions profundes, connectant amb el públic d'una manera única i significativa.
                 </InfoSectionCardRight>
                 <InfoSectionCardLeft imgURL={img5}>
-                    <b>Seguretat i Supervisió</b>: malgrat l'emoció i l'aventura, la seguretat dels participants
-                    és una prioritat. Els campaments multiaventura compten amb personal capacitat i mesures
-                    de seguretat per a garantir que totes les activitats es realitzen de manera segura.
+                    En resum, els musicals de Xúquer Animació són molt més que simples espectacles; són moments
+                    de creativitat i diversió, en la que els nostres xiquets, xiquetes i familiars gaudeixen d’un dia inoblidable.
                 </InfoSectionCardLeft>
             </InfoSectionWrapper>
             <GalleryWrapper>

@@ -22,27 +22,23 @@ export function AExcur() {
             />
             <InfoSectionWrapper>
                 <InfoSectionCardRight imgURL={img2}>
-                    Els nostres <b>campaments de multiaventura</b> són experiències emocionants
-                    i variades que combinen diferents activitats a l'aire lliure per a
-                    oferir als i les participants una aventura integral. Aquests campaments
-                    se centren a proporcionar als xiquets i xiquetes una àmplia gamma d'experiències
-                    esportives i educatives. Algunes de les característiques a destacar són:
+                    ¡Descobreix amb nosaltres infinitat de llocs!
+                    La nostra empresa t'ofereix l'oportunitat d'explorar paisatges impressionants i gaudir d'activitats
+                    a l'aire lliure en companyia dels nostres monitors i monitores. Des de rutes de senderisme per paratges
+                    naturals fins a emocionants expedicions en bicicleta de muntanya, teatres, competicions d’esports,
+                    les nostres excursions estan dissenyades per a satisfer els desitjos d'aventura de persones de totes
+                    les edats i nivells d'experiència
                 </InfoSectionCardRight>
                 <InfoSectionCardLeft imgURL={img3}>
-                    <b>Entorn Natural</b>: les activitats es porten a terme en entorns naturals, com boscos, muntanyes
-                    o pinades. Aquesta connexió amb la naturalesa no sols proporciona un component estètic sinó
-                    que també promou el respecte pel medi ambient i l'apreciació de la biodiversitat.
+                    Organitzem excursions per a grups menuts i grans, adaptades als teus interessos i preferències.
                 </InfoSectionCardLeft>
                 <InfoSectionCardRight imgURL={img4}>
-                    <b>Aventura i Emoció</b>: la diversitat d'activitats i la naturalesa desafiadora d'algunes
-                    d'elles proporcionen una dosi d'emoció i adrenalina. Això no sols fa que l'experiència
-                    siga divertida, sinó que també ajuda a superar pors i a construir una mentalitat
-                    positiva davant els desafiaments.
+                    A més, les nostres excursions són una excel·lent oportunitat per desconnectar de la rutina diària, 
+                    relaxar-te i renovar energies mentre et submergeixes en la bellesa i tranquil·litat de la natura.
                 </InfoSectionCardRight>
                 <InfoSectionCardLeft imgURL={img5}>
-                    <b>Seguretat i Supervisió</b>: malgrat l'emoció i l'aventura, la seguretat dels participants
-                    és una prioritat. Els campaments multiaventura compten amb personal capacitat i mesures
-                    de seguretat per a garantir que totes les activitats es realitzen de manera segura.
+                    No et perdes l'oportunitat de viure una experiència única i emocionant amb les excursions de 
+                    Xúquer Animació. T’esperem!!
                 </InfoSectionCardLeft>
             </InfoSectionWrapper>
             <FooterComponent />

@@ -18,16 +18,12 @@ export function AScap() {
             />
             <InfoSectionWrapper>
                 <InfoSectionCardRight imgURL={img2}>
-                    Els nostres <b>campaments de multiaventura</b> són experiències emocionants
-                    i variades que combinen diferents activitats a l'aire lliure per a
-                    oferir als i les participants una aventura integral. Aquests campaments
-                    se centren a proporcionar als xiquets i xiquetes una àmplia gamma d'experiències
-                    esportives i educatives. Algunes de les característiques a destacar són:
+                    ¡Descobreix una aventura plena d'intriga i emoció amb els nostres escape romos.
+                    Endinsa’t en un desafiament on el temps corre en contra teua i sols el teu enginy i treball en equip et portaran a la victòria.
                 </InfoSectionCardRight>
                 <InfoSectionCardLeft imgURL={img3}>
-                    <b>Entorn Natural</b>: les activitats es porten a terme en entorns naturals, com boscos, muntanyes
-                    o pinades. Aquesta connexió amb la naturalesa no sols proporciona un component estètic sinó
-                    que també promou el respecte pel medi ambient i l'apreciació de la biodiversitat.
+                    No perdes l'oportunitat de viure una experiència única i emocionant amb els escape rooms de Xúquer Animació.
+                    Reserva la teua sessió ara i prepara't per a desafiar la teua ment i els teus sentits en una aventura que mai oblidaràs!
                 </InfoSectionCardLeft>
             </InfoSectionWrapper>
             <FooterComponent />

@@ -37,27 +37,21 @@ export function AHall() {
             />
             <InfoSectionWrapper>
                 <InfoSectionCardRight imgURL={img2}>
-                    Els nostres <b>campaments de multiaventura</b> són experiències emocionants
-                    i variades que combinen diferents activitats a l'aire lliure per a
-                    oferir als i les participants una aventura integral. Aquests campaments
-                    se centren a proporcionar als xiquets i xiquetes una àmplia gamma d'experiències
-                    esportives i educatives. Algunes de les característiques a destacar són:
+                    ¡Prepara't per viure  una experiència terroríficament emocionant amb els nostres passatges del terror!
                 </InfoSectionCardRight>
                 <InfoSectionCardLeft imgURL={img3}>
-                    <b>Entorn Natural</b>: les activitats es porten a terme en entorns naturals, com boscos, muntanyes
-                    o pinades. Aquesta connexió amb la naturalesa no sols proporciona un component estètic sinó
-                    que també promou el respecte pel medi ambient i l'apreciació de la biodiversitat.
+                    Submergeix-te en un món de misteri i suspens on cada racó amaga un nou sotrac. Els nostres passatges del
+                    terror estan dissenyats per a desafiar les teues pors més profundes i mantenir-te en vilo a cada pas
+                    que dones. Amb decorats detallats, efectes especials impressionants i actors experts en l'art de l'espant,
+                    et garantim una experiència immersiva que et farà sentir com si estigueres dins d'una pel·lícula de terror.
                 </InfoSectionCardLeft>
                 <InfoSectionCardRight imgURL={img4}>
-                    <b>Aventura i Emoció</b>: la diversitat d'activitats i la naturalesa desafiadora d'algunes
-                    d'elles proporcionen una dosi d'emoció i adrenalina. Això no sols fa que l'experiència
-                    siga divertida, sinó que també ajuda a superar pors i a construir una mentalitat
-                    positiva davant els desafiaments.
+                    Ja siga que vingues en grup amb amics valents o desafies els teus propis límits en solitari, els nostres passatges
+                    del terror et faran sentir l'adrenalina córrer per les teues venes i els crits escapar de la teua gola.
                 </InfoSectionCardRight>
                 <InfoSectionCardLeft imgURL={img5}>
-                    <b>Seguretat i Supervisió</b>: malgrat l'emoció i l'aventura, la seguretat dels participants
-                    és una prioritat. Els campaments multiaventura compten amb personal capacitat i mesures
-                    de seguretat per a garantir que totes les activitats es realitzen de manera segura.
+                    No perdes l'oportunitat de viure una nit d'emocions intenses i diversió esgarrifosa amb Xúquer Animació. Prepara't
+                    per a una experiència que et deixarà sense alè!
                 </InfoSectionCardLeft>
             </InfoSectionWrapper>
             <GalleryWrapper>

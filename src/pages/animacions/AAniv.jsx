@@ -5,9 +5,9 @@ import { FooterComponent } from "../../components/FooterComponent";
 
 // IMGS
 import img1 from "/src/img/animacions/aniversaris/Principal.jpg"
-import img2 from "/src/img/animacions/aniversaris/1.jpg"
-import img3 from "/src/img/animacions/aniversaris/2.jpg"
-import img4 from "/src/img/animacions/aniversaris/3.jpg"
+import img2 from "/src/img/animacions/aniversaris/4.jpg"
+import img3 from "/src/img/animacions/aniversaris/5.jpg"
+import img4 from "/src/img/animacions/aniversaris/6.jpg"
 import img5 from "/src/img/animacions/aniversaris/4.jpg"
 
 
@@ -22,28 +22,19 @@ export function AAniv() {
             />
             <InfoSectionWrapper>
                 <InfoSectionCardRight imgURL={img2}>
-                    Els nostres <b>campaments de multiaventura</b> són experiències emocionants
-                    i variades que combinen diferents activitats a l'aire lliure per a
-                    oferir als i les participants una aventura integral. Aquests campaments
-                    se centren a proporcionar als xiquets i xiquetes una àmplia gamma d'experiències
-                    esportives i educatives. Algunes de les característiques a destacar són:
+                    A la nostra cultura valenciana els aniversaris son essencials per a crear
+                    moments inoblidables i celebrar amb alegria cada any que passa.
                 </InfoSectionCardRight>
                 <InfoSectionCardLeft imgURL={img3}>
-                    <b>Entorn Natural</b>: les activitats es porten a terme en entorns naturals, com boscos, muntanyes
-                    o pinades. Aquesta connexió amb la naturalesa no sols proporciona un component estètic sinó
-                    que també promou el respecte pel medi ambient i l'apreciació de la biodiversitat.
+                    Aquesta animació aporta un element de diversió i entreteniment fent els aniversaris
+                    més emocionants. Amb activitats com jocs, gimcanes, escape rooms creant un ambient
+                    festiu per als participants. Aquesta animació s’adapta a diferents edats i interessos,
+                    fent que tots els convidats siguen part de la celebració. Des dels més menuts fins als més grans
+                    , amb diverses opcions d'animació.
                 </InfoSectionCardLeft>
                 <InfoSectionCardRight imgURL={img4}>
-                    <b>Aventura i Emoció</b>: la diversitat d'activitats i la naturalesa desafiadora d'algunes
-                    d'elles proporcionen una dosi d'emoció i adrenalina. Això no sols fa que l'experiència
-                    siga divertida, sinó que també ajuda a superar pors i a construir una mentalitat
-                    positiva davant els desafiaments.
+                    En resum, Xúquer Animació et proporciona moments de felicitat que perduren  amb el temps!
                 </InfoSectionCardRight>
-                <InfoSectionCardLeft imgURL={img5}>
-                    <b>Seguretat i Supervisió</b>: malgrat l'emoció i l'aventura, la seguretat dels participants
-                    és una prioritat. Els campaments multiaventura compten amb personal capacitat i mesures
-                    de seguretat per a garantir que totes les activitats es realitzen de manera segura.
-                </InfoSectionCardLeft>
             </InfoSectionWrapper>
             <FooterComponent />
         </>

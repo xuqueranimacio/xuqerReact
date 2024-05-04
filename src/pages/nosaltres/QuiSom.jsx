@@ -7,6 +7,7 @@ import { GalleryWrapper } from "../../components/GalleryWrapper"
 import img1 from "/src/img/nosaltres/quisom/Principal.jpg"
 import img2 from "/src/img/nosaltres/quisom/1.jpg"
 import img3 from "/src/img/nosaltres/quisom/2.jpg"
+import img4 from "/src/img/nosaltres/quisom/3.jpg"
 import { FooterComponent } from "../../components/FooterComponent";
 
 
