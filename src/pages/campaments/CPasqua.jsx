@@ -13,14 +13,19 @@ import img2 from "/src/img/campaments/pasqua/1.jpg"
 import img3 from "/src/img/campaments/pasqua/2.jpg"
 import img4 from "/src/img/campaments/pasqua/3.jpg"
 import img5 from "/src/img/campaments/pasqua/4.jpg"
+import img6 from "/src/img/campaments/pasqua/5.jpg"
+import img7 from "/src/img/campaments/pasqua/6.jpg"
+import img8 from "/src/img/campaments/pasqua/7.jpg"
+import img9 from "/src/img/campaments/pasqua/8.jpg"
+import img10 from "/src/img/campaments/pasqua/9.jpg"
 import { FooterComponent } from "../../components/FooterComponent";
 
 export const imageUrls = [
-    '/src/img/campaments/pasqua/5.jpg',
-    '/src/img/campaments/pasqua/6.jpg',
-    '/src/img/campaments/pasqua/7.jpg',
-    '/src/img/campaments/pasqua/8.jpg',
-    '/src/img/campaments/pasqua/9.jpg',
+    img6,
+    img7,
+    img8,
+    img9,
+    img10
 ];
 
 

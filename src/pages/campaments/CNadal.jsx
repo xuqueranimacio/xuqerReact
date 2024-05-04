@@ -13,14 +13,19 @@ import img2 from "/src/img/campaments/nadal/1.jpg"
 import img3 from "/src/img/campaments/nadal/2.jpg"
 import img4 from "/src/img/campaments/nadal/3.jpg"
 import img5 from "/src/img/campaments/nadal/4.jpg"
+import img6 from "/src/img/campaments/nadal/5.jpg"
+import img7 from "/src/img/campaments/nadal/3.jpg"
+import img8 from "/src/img/campaments/nadal/4.jpg"
+import img9 from "/src/img/campaments/nadal/1.jpg"
+import img10 from "/src/img/campaments/nadal/2.jpg"
 import { FooterComponent } from "../../components/FooterComponent";
 
 export const imageUrls = [
-    '/src/img/campaments/nadal/5.jpg',
-    '/src/img/campaments/nadal/3.jpg',
-    '/src/img/campaments/nadal/4.jpg',
-    '/src/img/campaments/nadal/1.jpg',
-    '/src/img/campaments/nadal/2.jpg',
+    img6,
+    img7,
+    img8,
+    img9,
+    img10
 ];
 
 

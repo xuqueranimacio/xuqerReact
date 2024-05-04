@@ -13,13 +13,18 @@ import img2 from "/src/img/campaments/adults/1.jpg"
 import img3 from "/src/img/campaments/adults/2.jpg"
 import img4 from "/src/img/campaments/adults/3.jpg"
 import img5 from "/src/img/campaments/adults/4.jpg"
+import img6 from "/src/img/campaments/adults/5.jpg"
+import img7 from "/src/img/campaments/adults/6.jpg"
+import img8 from "/src/img/campaments/adults/7.jpg"
+import img9 from "/src/img/campaments/adults/10.jpg"
+import img10 from "/src/img/campaments/adults/11.jpg"
 
 export const imageUrls = [
-    '/src/img/campaments/adults/5.jpg',
-    '/src/img/campaments/adults/6.jpg',
-    '/src/img/campaments/adults/7.jpg',
-    '/src/img/campaments/adults/10.jpg',
-    '/src/img/campaments/adults/11.jpg',
+    img6,
+    img7,
+    img8,
+    img9,
+    img10
 ];
 
 

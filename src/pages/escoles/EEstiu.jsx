@@ -8,19 +8,24 @@ import 'swiper/css';
 import { Navigation } from 'swiper/modules';
 
 // IMGS
-import img1 from "/src/img/escoles de vacances/estiu/Principal.jpg"
-import img2 from "/src/img/escoles de vacances/estiu/1.jpg"
-import img3 from "/src/img/escoles de vacances/estiu/2.jpg"
-import img4 from "/src/img/escoles de vacances/estiu/3.jpg"
-import img5 from "/src/img/escoles de vacances/estiu/4.jpg"
+import img1 from "/src/img/escoles de vacances/estiu/Principal.jpg";
+import img2 from "/src/img/escoles de vacances/estiu/1.jpg";
+import img3 from "/src/img/escoles de vacances/estiu/2.jpg";
+import img4 from "/src/img/escoles de vacances/estiu/3.jpg";
+import img5 from "/src/img/escoles de vacances/estiu/4.jpg";
+import img6 from "/src/img/escoles de vacances/estiu/5.jpg";
+import img7 from "/src/img/escoles de vacances/estiu/6.jpg";
+import img8 from "/src/img/escoles de vacances/estiu/7.jpg";
+import img9 from "/src/img/escoles de vacances/estiu/10.jpg";
+import img10 from "/src/img/escoles de vacances/estiu/11.jpg";
 import { FooterComponent } from "../../components/FooterComponent";
 
-export const imageUrls = [
-    '/src/img/escoles de vacances/estiu/5.jpg',
-    '/src/img/escoles de vacances/estiu/6.jpg',
-    '/src/img/escoles de vacances/estiu/7.jpg',
-    '/src/img/escoles de vacances/estiu/10.jpg',
-    '/src/img/escoles de vacances/estiu/11.jpg',
+const imageUrls = [
+    img6,
+    img7,
+    img8,
+    img9,
+    img10
 ];
 
 

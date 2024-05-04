@@ -2,24 +2,28 @@ import { HeaderComponent } from "../../components/HeaderComponent"
 import { ImageWrapper } from "../../components/ImageWrapper"
 import { InfoSectionWrapper, InfoSectionCardLeft, InfoSectionCardRight } from "../../components/InfoSection"
 import { GalleryWrapper } from "../../components/GalleryWrapper"
+import { FooterComponent } from "../../components/FooterComponent"
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { Navigation } from 'swiper/modules';
 
 // IMGS
-import img1 from "/src/img/escoles de vacances/pasqua/Principal.jpg"
-import img2 from "/src/img/escoles de vacances/pasqua/1.jpg"
-import img3 from "/src/img/escoles de vacances/pasqua/2.jpg"
-import img4 from "/src/img/escoles de vacances/pasqua/3.jpg"
-import img5 from "/src/img/escoles de vacances/pasqua/4.jpg"
-import { FooterComponent } from "../../components/FooterComponent";
+import img1 from "/src/img/escoles de vacances/pasqua/Principal.jpg";
+import img2 from "/src/img/escoles de vacances/pasqua/1.jpg";
+import img3 from "/src/img/escoles de vacances/pasqua/2.jpg";
+import img4 from "/src/img/escoles de vacances/pasqua/3.jpg";
+import img5 from "/src/img/escoles de vacances/pasqua/4.jpg";
+import img6 from "/src/img/escoles de vacances/pasqua/5.jpg";
+import img7 from "/src/img/escoles de vacances/pasqua/6.jpg";
+import img8 from "/src/img/escoles de vacances/pasqua/7.jpg";
+import img9 from "/src/img/escoles de vacances/pasqua/8.jpg";
 
-export const imageUrls = [
-    '/src/img/escoles de vacances/pasqua/5.jpg',
-    '/src/img/escoles de vacances/pasqua/6.jpg',
-    '/src/img/escoles de vacances/pasqua/7.jpg',
-    '/src/img/escoles de vacances/pasqua/8.jpg',
+const imageUrls = [
+    img6,
+    img7,
+    img8,
+    img9,
 ];
 
 

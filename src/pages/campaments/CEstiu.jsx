@@ -1,11 +1,6 @@
 import { HeaderComponent } from "../../components/HeaderComponent"
 import { ImageWrapper } from "../../components/ImageWrapper"
 import { InfoSectionWrapper, InfoSectionCardLeft, InfoSectionCardRight } from "../../components/InfoSection"
-import { GalleryWrapper } from "../../components/GalleryWrapper"
-
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import { Navigation } from 'swiper/modules';
 
 // IMGS
 import img1 from "/src/img/campaments/estiu/Principal.jpg"
@@ -14,12 +9,6 @@ import img3 from "/src/img/campaments/estiu/2.jpg"
 import img4 from "/src/img/campaments/estiu/3.jpg"
 import img5 from "/src/img/campaments/estiu/4.jpg"
 import { FooterComponent } from "../../components/FooterComponent";
-
-export const imageUrls = [
-    img1,
-    img2,
-    img3
-];
 
 
 
@@ -55,26 +44,6 @@ export function CEstiu(){
                     lliure i l'orientació, la qual cosa contribueix a la confiança en si mateixos i a l'autosuficiència.
                 </InfoSectionCardLeft>
             </InfoSectionWrapper>
-            <GalleryWrapper>
-                <Swiper
-                        modules={[Navigation]}
-                        navigation
-                        autoplay={{
-                            "delay": 5000,
-                            "disableOnInteraction": false
-                        }}
-                        spaceBetween={50}
-                        slidesPerView={1}
-                        onSlideChange={() => console.log('slide change')}
-                        onSwiper={(swiper) => console.log(swiper)}
-                >
-                    {imageUrls.map((url, index) => (
-                        <SwiperSlide>
-                            <img key={index} src={url} className="myimg"></img>
-                        </SwiperSlide>
-                    ))}
-                </Swiper>
-            </GalleryWrapper>
             <FooterComponent />
         </>
     )
