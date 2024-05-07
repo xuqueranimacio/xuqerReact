@@ -46,6 +46,10 @@ body {
   overflow-x: hidden;
 }
 
+img{
+  user-select: none;
+}
+
 #aboutus,
 #contact,
 #activities {
@@ -73,6 +77,25 @@ body {
   padding: 20px;
   box-sizing: border-box;
 
+}
+
+.circleContainer{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  user-select: none;
+  margin-bottom: 50px;
+}
+
+.circles{
+  height: 600px;
+}
+
+.valorsText{
+  font-size: 1.8rem;
+  text-align: center;
+  color: var(--primary-background-color);
 }
 
 .img-title img {
@@ -593,6 +616,15 @@ body {
     flex-direction: column;
   }
 
+  .valorsText{
+    font-size: 1.5rem;
+  }
+
+  .circles{
+    height: auto;
+    width: 100%;
+  }
+
 }
 
 /* 
@@ -697,6 +729,15 @@ body {
     flex-direction: column;
   }
 
+  .valorsText{
+    font-size: 1.5rem;
+  }
+
+  .circles{
+    height: auto;
+    width: 100%;
+  }
+
 }
 
 /* 
@@ -710,6 +751,15 @@ body {
 
     --container-width: 350px;
 
+  }
+
+  .valorsText{
+    font-size: 1.5rem;
+  }
+
+  .circles{
+    height: auto;
+    width: 100%;
   }
 
   .swiper-img {

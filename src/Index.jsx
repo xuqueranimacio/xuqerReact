@@ -113,9 +113,8 @@ export function Index(){
                         <p>
                             La nostra passió per l'animació és el motor que impulsa la nostra empresa. A Xúquer
                             Animació, creiem en la màgia de la infància i l'adolescència, i en la importància de crear moments
-                            inoblidables per als més menuts. La nostra dedicació a la diversió segura i educativa ens ha
-                            convertit en líders en l'organització de camps per a xiquets, escoles d'estiu i
-                            esdeveniments infantils</p>
+                            inoblidables per als més menuts. El nostre compromís amb la diversió i l'educació
+                            ens ha convertit en referents en l'organizació de campaments, escoles de vacances i altres esdeveniments.</p>
                     </div>
                     <div className="about-img" id="aboutimg" data-aos="fade-left" data-aos-duration="3000">
                         <img src={equip} alt="" />

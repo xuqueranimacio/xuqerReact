@@ -48,6 +48,7 @@ import { Equip } from './pages/nosaltres/Equip';
 // NOT FOUND
 import { NotFound } from './pages/NotFount';
 import { Metodologia } from './pages/nosaltres/Metodologia';
+import { Valors } from './pages/nosaltres/Valors';
 
 
 
@@ -98,7 +99,7 @@ export const RoutesComp = () => {
                 <Route path="/nosaltres" element={<Nosaltres />} />
                 <Route path="/nosaltres/qui-som" element={<QuiSom />} />
                 <Route path="/nosaltres/metodologia" element={<Metodologia />} />
-                <Route path="/nosaltres/valors" element={<Equip />} />
+                <Route path="/nosaltres/valors" element={<Valors />} />
                 <Route path="/nosaltres/equip" element={<Equip />} />
                 <Route path="/nosaltres/treballa-amb-nosaltres" element={<Nosaltres />} />
 

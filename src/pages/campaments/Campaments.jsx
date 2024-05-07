@@ -6,7 +6,7 @@ import { ActivitatsCardNaranja } from "../../components/ActivitatsCardNaranja"
 import { FooterComponent } from "../../components/FooterComponent"
 
 import estiu from "../../img/campaments/estiu/Principal.jpg"
-import nadal from "../../img/campaments/nadal/5.jpg"
+import nadal from "../../img/campaments/nadal/1.jpg"
 import pasquea from "../../img/campaments/pasqua/Principal.jpg"
 import adults from "../../img/campaments/adults/Principal-min.jpg"
 import multiaventura from "../../img/campaments/multiaventura/Principal.jpg"
@@ -15,7 +15,6 @@ import { useEffect } from "react"
 
 
 export function Campaments(){
-
     return (
         <>
 
