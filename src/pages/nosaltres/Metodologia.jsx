@@ -3,10 +3,10 @@ import { ImageWrapper } from "../../components/ImageWrapper"
 import { InfoSectionWrapperCustom, InfoSectionCardLeft, InfoSectionCardRight } from "../../components/InfoSection"
 
 // IMGS
-import img1 from "/src/img/nosaltres/metodologia/1.png"
-import img2 from "/src/img/nosaltres/metodologia/2.png"
-import img3 from "/src/img/nosaltres/metodologia/3.png"
-import img4 from "/src/img/nosaltres/metodologia/4.png"
+import img1 from "/src/img/nosaltres/metodologia/Principal.jpg"
+import img2 from "/src/img/nosaltres/metodologia/2.jpg"
+import img3 from "/src/img/nosaltres/metodologia/3.jpg"
+import img4 from "/src/img/nosaltres/metodologia/4.jpg"
 import { FooterComponent } from "../../components/FooterComponent";
 
 
@@ -19,7 +19,7 @@ export function Metodologia() {
                 imgURL={img1}
                 title="Metodologia"
             />
-            <InfoSectionWrapperCustom title="Nostre Metodologia">
+            <InfoSectionWrapperCustom title="Metodologia">
                 <InfoSectionCardRight imgURL={img1}>
                     Xúquer Animació és el resultat del treball i l'esforç realitzat per un grup de professionals especialitzats
                     en el sector educatiu i l'oci i el temps lliure, amb una experiència de més de 10 anys defensant una ensenyança
@@ -40,7 +40,7 @@ export function Metodologia() {
                     <br /><b>Metodologia multidisciplinar</b>:fomentant l'aprenentatge a través de l'activitat física i mental de cada xiquet i xiqueta.
 
                 </InfoSectionCardRight>
-                <InfoSectionCardLeft imgURL={img3}>
+                <InfoSectionCardLeft imgURL={img4}>
                     Així mateix, els aspectes pedagògics que oferim a través d'aquest projecte són els següents :
                     <ol>
                         <li>Lliure expressió i creativitat </li>

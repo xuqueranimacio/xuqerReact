@@ -6,8 +6,8 @@ import { ActivitatsCardNaranja } from "../../components/ActivitatsCardNaranja"
 import { FooterComponent } from "../../components/FooterComponent"
 
 import quisom from "../../img/nosaltres/quisom/Principal.jpg"
-import metodologia from "../../img/nosaltres/metodologia/1.png"
-import valors from "../../img/nosaltres/metodologia/2.png"
+import metodologia from "../../img/nosaltres/metodologia/Principal.jpg"
+import valors from "../../img/nosaltres/metodologia/2.jpg"
 import equip from "../../img/nosaltres/equip/Principal.jpg"
 import treballa from "../../img/nosaltres/trabajo.jpg"
 
@@ -44,8 +44,8 @@ export function Nosaltres() {
                 />
                 <ActivitatsCardNaranja
                     titulo="Metodologia"
-                    texto="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia tempore alias qui sequi odit
-                    repudiandae recusandae corrupti facere praesentium eligendi."
+                    texto="Pensem que d'aquesta forma col·laborem oferint una educació en valors a través 
+                    d’un gran ventall d'activitats diferents a les habituals."
                     imgurl={metodologia}
                     pagina="/nosaltres/metodologia"
                 />

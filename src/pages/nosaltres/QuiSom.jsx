@@ -24,7 +24,7 @@ export function QuiSom() {
                 <InfoSectionCardRight imgURL={img1}>
                     Xúquer Animació naix al poble d’Albalat de la Ribera l’any 2022 amb l’objectiu de donar-li un nou significat
                     a l’educació no formal. Som una entitat nova però amb experiència, ja que sorgim després d’estar més de 10
-                    anys treballant de manera altruista a l’Associació Juvenil Xúquer Monitors. . És en aquest punt quan es pren
+                    anys treballant de manera altruista a l’Associació Juvenil Xúquer Monitors. És en aquest punt quan es pren
                     la decisió de professionalitzar i revalorar tota la feina realitzada durant tots aquests anys.
                 </InfoSectionCardRight>
                 <InfoSectionCardLeft imgURL={img2}>
@@ -37,7 +37,7 @@ export function QuiSom() {
                     en el món de l’animació componen l’experiència professional i personal d’aquest gran equip de treball, el qual conforma la
                     màquina que greixa aquest projecte.
                 </InfoSectionCardRight>
-                <InfoSectionCardLeft imgURL={img3}>
+                <InfoSectionCardLeft imgURL={img4}>
                     En definitiva, el que desitgem transmetre és que ser monitor/a de temps lliure és una manera
                     d’entendre i de viure la vida, un sentiment vocacional que implica viure amb il·lusió i alegria
                     cada moment de treball. És per això que viure no és estar viu, viure és l’actitud d’omplir la vida!

@@ -40,22 +40,23 @@ export function EEstiu() {
             />
             <InfoSectionWrapper>
                 <InfoSectionCardRight imgURL={img2}>
-                    El nostre <b>campament d’adults</b> és una experiència única en la qual hem volgut
-                    que la persona adulta puga desconnectar de la seua rutina diària i les responsabilitats personals.
-                    Aquest projecte s’ha dissenyat per a oferir <b>diversió, relaxació i oportunitats</b> de creixement personal en un entorn a l'aire lliure.
+                    Descobreix la diversió de l'estiu amb Xúquer Animació! <br />
+                    Estàs buscant la manera perfecta que els teus fills passen l'estiu? No busques més! En Xúquer Animació, oferim una experiència
+                    d'estiu inoblidable plena de diversió, aprenentatge i aventures.
                 </InfoSectionCardRight>
                 <InfoSectionCardLeft imgURL={img3}>
-                    Busquem en cada participant la <b>diversió i el  desenvolupament personal</b>.
-                    Són oportunitats excel·lents per a establir noves amistats i enfortir les relacions socials.
-                    Activitats grupals i moments de convivència creen un ambient propici per a la interacció i la companyonia.
+                    La nostra escola d'estiu està dissenyada per a xiquets i xiquetes de totes les edats, on cada dia és una nova aventura.
+                    Amb el nostre equip de professionals altament qualificats i dedicats, els teus fills estaran immersos en un entorn segur
+                    i estimulant on poden aprendre, explorar i crear records que duraran tota la vida.
                 </InfoSectionCardLeft>
                 <InfoSectionCardRight imgURL={img4}>
-                    Les activitats estan adaptades al <b>públic adult</b>, ja que s’ofereixen una varietat d'activitats recreatives, com senderisme, ioga,
-                    tallers d'art, activitats aquàtiques, excursions i altres opcions que <b>fomenten el benestar i l'entreteniment</b>.
+                    En Xúquer Animació, ens apassiona inspirar la creativitat i l'aprenentatge a través del joc i la diversió. Des d'activitats
+                    artístiques i manualitats fins a jocs a l'aire lliure i excursions emocionants, cada dia està ple de noves oportunitats per
+                    descobrir, experimentar i créixer.
                 </InfoSectionCardRight>
                 <InfoSectionCardLeft imgURL={img5}>
-                    Vos garantim la possibilitat de gaudir d’una <b>experiència positiva i sense preocupacions</b>,
-                    combinant de forma equilibrada relaxació, diversió i connexió social en un entorn que permet <b>escapar de la rutina diària</b>.
+                    No perdes l'oportunitat que els teus fills formen part d'aquesta increïble aventura d'estiu amb Xúquer Animació!
+                    <br />L'estiu està ple de possibilitats amb Xúquer Animació!
                 </InfoSectionCardLeft>
             </InfoSectionWrapper>
             <GalleryWrapper>

@@ -91,7 +91,7 @@ export function Index(){
                     <Link to="/animacions" data-aos="fade-left" data-aos-duration="2000" className="card-img-grid" id="secGrid">
                         <img src={equip} alt="" />
                     </Link>
-                    <Link to="/escolas-de-vacances" data-aos="fade-left" data-aos-duration="1000" className="card-img-grid" id="thirdGrid">
+                    <Link to="/escoles-de-vacances" data-aos="fade-left" data-aos-duration="1000" className="card-img-grid" id="thirdGrid">
                         <img src={escola} alt="" />
                     </Link>
                     <Link to="/extraescolars" data-aos="fade-right" data-aos-duration="800" className="card-img-grid" id="fourthGrid">
@@ -103,17 +103,16 @@ export function Index(){
 
         <section id="aboutus">
             <div className="container">
-                <h2 className="section-title" data-aos="fade-right">Qui Som</h2>
                 <div className="aboutus">
                     <div className="about-title" data-aos="fade-right" data-aos-duration="1500">
                         <h2 className="titleWrapper">
                             <span className="firstTitle">El nostre objectiu:</span>
                             <br /> 
-                            <span className="secondTitle">Que somriguis</span>
+                            <span className="secondTitle">Un Somriure</span>
                         </h2>
                         <p>
-                            La nostra passió per la joia infantil és el motor que impulsa la nostra empresa. A Xúquer
-                            Animació, creiem en la màgia de la infància i en la importància de crear moments
+                            La nostra passió per l'animació és el motor que impulsa la nostra empresa. A Xúquer
+                            Animació, creiem en la màgia de la infància i l'adolescència, i en la importància de crear moments
                             inoblidables per als més menuts. La nostra dedicació a la diversió segura i educativa ens ha
                             convertit en líders en l'organització de camps per a xiquets, escoles d'estiu i
                             esdeveniments infantils</p>

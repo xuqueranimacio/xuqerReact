@@ -40,22 +40,26 @@ export function ENadal() {
             />
             <InfoSectionWrapper>
                 <InfoSectionCardRight imgURL={img1}>
-                    El nostre <b>campament d’adults</b> és una experiència única en la qual hem volgut
-                    que la persona adulta puga desconnectar de la seua rutina diària i les responsabilitats personals.
-                    Aquest projecte s’ha dissenyat per a oferir <b>diversió, relaxació i oportunitats</b> de creixement personal en un entorn a l'aire lliure.
+                    Celebra la màgia del Nadal amb Xúquer Animació!
+                    Estàs buscant la manera perfecta que els teus fills gaudisquen de la temporada nadalenca?
+                    No busques més! En Xúquer Animació, oferim una escola de Nadal plena de diversió, creativitat i esperit festiu.
+
                 </InfoSectionCardRight>
                 <InfoSectionCardLeft imgURL={img2}>
-                    Busquem en cada participant la <b>diversió i el  desenvolupament personal</b>.
-                    Són oportunitats excel·lents per a establir noves amistats i enfortir les relacions socials.
-                    Activitats grupals i moments de convivència creen un ambient propici per a la interacció i la companyonia.
+                    La nostra escola de Nadal està dissenyada per a xiquets i xiquetes de totes les edats,
+                    oferint una experiència única on poden submergir-se en l'encant de la temporada.
+                    Amb activitats temàtiques, manualitats nadalenques, jocs divertits i molt més,
+                    cada dia serà una aventura màgica que recordaran per sempre.
                 </InfoSectionCardLeft>
                 <InfoSectionCardRight imgURL={img3}>
-                    Les activitats estan adaptades al <b>públic adult</b>, ja que s’ofereixen una varietat d'activitats recreatives, com senderisme, ioga,
-                    tallers d'art, activitats aquàtiques, excursions i altres opcions que <b>fomenten el benestar i l'entreteniment</b>.
+                    En Xúquer Animació, treballem per crear records especials que perduren tota la vida.
+                    El nostre equip de professionals dedicats està compromés a proporcionar un ambient segur
+                    i acollidor on els teus fills puguen explorar la seua creativitat, fer nous amics i sentir la màgia de Nadal.
+
                 </InfoSectionCardRight>
                 <InfoSectionCardLeft imgURL={img4}>
-                    Vos garantim la possibilitat de gaudir d’una <b>experiència positiva i sense preocupacions</b>,
-                    combinant de forma equilibrada relaxació, diversió i connexió social en un entorn que permet <b>escapar de la rutina diària</b>.
+                    No et perdes l'oportunitat que els teus fills i filles formen part d'aquesta experiència nadalenca única amb Xúquer Animació!
+                    Viu la màgia de Nadal amb Xúquer Animació!
                 </InfoSectionCardLeft>
             </InfoSectionWrapper>
             <GalleryWrapper>

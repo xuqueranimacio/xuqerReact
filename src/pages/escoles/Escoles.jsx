@@ -24,22 +24,23 @@ export function Escoles(){
             <ActivitatsMenu>
                 <ActivitatsCard 
                     titulo="Estiu" 
-                    texto="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia tempore alias qui sequi odit
-                    repudiandae recusandae corrupti facere praesentium eligendi." 
+                    texto="Estàs buscant la manera perfecta que els teus fills passen l'estiu? 
+                    No busques més! En Xúquer Animació, oferim una experiència
+                    d'estiu inoblidable plena de diversió, aprenentatge i aventures." 
                     imgurl={estiu}
                     pagina="/escoles-de-vacances/estiu"
                 />
                 <ActivitatsCardNaranja 
                     titulo="Nadal" 
-                    texto="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia tempore alias qui sequi odit
-                    repudiandae recusandae corrupti facere praesentium eligendi." 
+                    texto="La nostra escola de Nadal està dissenyada per a xiquets i xiquetes de totes les edats,
+                    oferint una experiència única on poden submergir-se en l'encant de la temporada." 
                     imgurl={nadal}
                     pagina="/escoles-de-vacances/nadal"
                 />
                 <ActivitatsCard 
                     titulo="Pasqua" 
-                    texto="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia tempore alias qui sequi odit
-                    repudiandae recusandae corrupti facere praesentium eligendi." 
+                    texto="No deixes passar l'oportunitat que els teus fills formen part d'aquesta experiència única de Pasqua amb Xúquer Animació!
+                    Celebra la Pasqua amb Xúquer Animació!" 
                     imgurl={pasqua}
                     pagina="/escoles-de-vacances/pasqua"
                 />
