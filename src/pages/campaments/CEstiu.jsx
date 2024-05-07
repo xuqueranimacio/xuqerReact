@@ -3,7 +3,7 @@ import { ImageWrapper } from "../../components/ImageWrapper"
 import { InfoSectionWrapper, InfoSectionCardLeft, InfoSectionCardRight } from "../../components/InfoSection"
 
 // IMGS
-import img1 from "/src/img/campaments/estiu/Principal.jpg"
+import img1 from "/src/img/campaments/estiu/Principal2.jpg"
 import img2 from "/src/img/campaments/estiu/1.jpg"
 import img3 from "/src/img/campaments/estiu/2.jpg"
 import img4 from "/src/img/campaments/estiu/3.jpg"
