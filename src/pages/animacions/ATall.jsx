@@ -14,13 +14,13 @@ import img2 from "/src/img/animacions/tallers/1.jpg"
 import img3 from "/src/img/animacions/tallers/2.jpg"
 import img4 from "/src/img/animacions/tallers/3.jpg"
 import img5 from "/src/img/animacions/tallers/4.jpg"
+import img6 from "/src/img/animacions/tallers/5.jpg"
+import img7 from "/src/img/animacions/tallers/6.jpg"
+import img8 from "/src/img/animacions/tallers/7.jpg"
+import img9 from "/src/img/animacions/tallers/8.jpg"
 
 export const imageUrls = [
-    '/src/img/animacions/tallers/5.jpg',
-    '/src/img/animacions/tallers/6.jpg',
-    '/src/img/animacions/tallers/7.jpg',
-    '/src/img/animacions/tallers/8.jpg',
-    '/src/img/animacions/tallers/9.jpg',
+    img6, img7, img8, img9
 ];
 
 

@@ -13,12 +13,13 @@ import img2 from "/src/img/extraescolars/legoblocks/1.jpg"
 import img3 from "/src/img/extraescolars/legoblocks/2.jpg"
 import img4 from "/src/img/extraescolars/legoblocks/3.jpg"
 import img5 from "/src/img/extraescolars/legoblocks/4.jpg"
+import img6 from "/src/img/extraescolars/legoblocks/5.jpg"
+import img7 from "/src/img/extraescolars/legoblocks/6.jpg"
+import img8 from "/src/img/extraescolars/legoblocks/7.jpg"
 import { FooterComponent } from "../../components/FooterComponent";
 
 export const imageUrls = [
-    '/src/img/extraescolars/legoblocks/5.jpg',
-    '/src/img/extraescolars/legoblocks/6.jpg',
-    '/src/img/extraescolars/legoblocks/7.jpg',
+    img4, img5, img6, img7, img8
 ];
 
 
@@ -33,27 +34,12 @@ export function ELego() {
             />
             <InfoSectionWrapper>
                 <InfoSectionCardRight imgURL={img2}>
-                    Els nostres <b>campaments de multiaventura</b> són experiències emocionants
-                    i variades que combinen diferents activitats a l'aire lliure per a
-                    oferir als i les participants una aventura integral. Aquests campaments
-                    se centren a proporcionar als xiquets i xiquetes una àmplia gamma d'experiències
-                    esportives i educatives. Algunes de les característiques a destacar són:
+                    En aquesta activitat el xiquet/a treballarà la consciència espacial, l'habilitat de raonar, 
+                    la lògica, la creativitat i la concentració.
                 </InfoSectionCardRight>
                 <InfoSectionCardLeft imgURL={img3}>
-                    <b>Entorn Natural</b>: les activitats es porten a terme en entorns naturals, com boscos, muntanyes
-                    o pinades. Aquesta connexió amb la naturalesa no sols proporciona un component estètic sinó
-                    que també promou el respecte pel medi ambient i l'apreciació de la biodiversitat.
-                </InfoSectionCardLeft>
-                <InfoSectionCardRight imgURL={img4}>
-                    <b>Aventura i Emoció</b>: la diversitat d'activitats i la naturalesa desafiadora d'algunes
-                    d'elles proporcionen una dosi d'emoció i adrenalina. Això no sols fa que l'experiència
-                    siga divertida, sinó que també ajuda a superar pors i a construir una mentalitat
-                    positiva davant els desafiaments.
-                </InfoSectionCardRight>
-                <InfoSectionCardLeft imgURL={img5}>
-                    <b>Seguretat i Supervisió</b>: malgrat l'emoció i l'aventura, la seguretat dels participants
-                    és una prioritat. Els campaments multiaventura compten amb personal capacitat i mesures
-                    de seguretat per a garantir que totes les activitats es realitzen de manera segura.
+                    A banda de divertir-se i treballar alguns conceptes mecànics, 
+                    mentre realitza construccions i altres muntatges.
                 </InfoSectionCardLeft>
             </InfoSectionWrapper>
             <GalleryWrapper>

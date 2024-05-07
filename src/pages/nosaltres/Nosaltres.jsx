@@ -7,7 +7,7 @@ import { FooterComponent } from "../../components/FooterComponent"
 
 import quisom from "../../img/nosaltres/quisom/Principal.jpg"
 import metodologia from "../../img/nosaltres/metodologia/Principal.jpg"
-import valors from "../../img/nosaltres/metodologia/2.jpg"
+import valors from "../../img/nosaltres/principal.jpg"
 import equip from "../../img/nosaltres/equip/Principal.jpg"
 import treballa from "../../img/nosaltres/trabajo.jpg"
 
@@ -37,8 +37,8 @@ export function Nosaltres() {
                 />
                 <ActivitatsCard
                     titulo="Valors"
-                    texto="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia tempore alias qui sequi odit
-                    repudiandae recusandae corrupti facere praesentium eligendi."
+                    texto="En Xúquer Animació prioritzem tot aquell aprenentatge que tinga la finalitat 
+                    d’intentar que els xiquets i xiquetes siguen millors persones treballant els valors"
                     imgurl={valors}
                     pagina="/nosaltres/valors"
                 />
@@ -51,8 +51,7 @@ export function Nosaltres() {
                 />
                 <ActivitatsCard
                     titulo="Treballa amb Nosaltres"
-                    texto="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia tempore alias qui sequi odit
-                    repudiandae recusandae corrupti facere praesentium eligendi."
+                    texto="Voleu treballar amb nosaltres? Escriviu-nos a contacte o al nostre correu electrònic."
                     imgurl={treballa}
                     pagina="/contacte"
                 />

@@ -4,7 +4,7 @@ import { InfoSectionWrapperCustom, InfoSectionCardLeft, InfoSectionCardRight } f
 import { GalleryWrapper } from "../../components/GalleryWrapper"
 
 // IMGS
-import img1 from "/src/img/nosaltres/quisom/Principal.jpg"
+import img1 from "/src/img/nosaltres/principal.jpg"
 import circles from "/src/img/nosaltres/valors.png"
 import { FooterComponent } from "../../components/FooterComponent";
 
