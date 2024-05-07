@@ -1,5 +1,6 @@
 import { RoutesComp } from './RoutesComp.jsx'
 import { useEffect } from 'react'
+import { Analytics } from "@vercel/analytics/react"
 import Aos from "aos";
 import './css/styles.css'
 import './App.css'
@@ -12,6 +13,7 @@ function App() {
 
   return (
     <>
+      <Analytics />
       <RoutesComp />
     </>
   )
