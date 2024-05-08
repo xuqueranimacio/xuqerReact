@@ -20,23 +20,26 @@ export function HeaderComponent(){
                     </div>
                     <div className="list">
                         <div className="nav-element">
-                            <Link to="/nosaltres">
+                            <Link to="/nosaltres" className='headerClick'>
                                     <span>Nosaltres</span>
-                                    <span className="rotate"></span>
                             </Link>
                             <div className="dropdown-menu">
                                 <div className="separation">
                                     <Link to="/nosaltres/qui-som" className="info-title">Qui Som</Link>
                                 </div>
+                                <hr className='hrsep'/>
                                 <div className="separation">
                                     <Link to="/nosaltres/metodologia" className="info-title">Metodologia</Link>
                                 </div>
+                                <hr className='hrsep'/>
                                 <div className="separation">
                                     <Link to="/nosaltres/valors" className="info-title">Valors</Link>
                                 </div>
+                                <hr className='hrsep'/>
                                 <div className="separation">
                                     <Link to="/nosaltres/equip" className="info-title">Equip</Link>
                                 </div>
+                                <hr className='hrsep'/>
                                 <div className="separation">
                                     <Link to="/contacte" className="info-title">Treballa amb Nosaltres</Link>
                                 </div>
@@ -44,24 +47,29 @@ export function HeaderComponent(){
                         </div>
                         <div className="nav-element">
                             <Link to="/campaments">
-                                    Campaments
+                                    <span>Campaments</span>
                             </Link>
                             <div className="dropdown-menu">
                                 <div className="separation">
                                     <Link to="/campaments/estiu" className="info-title">Estiu</Link>
                                 </div>
+                                <hr className='hrsep'/>
                                 <div className="separation">
                                     <Link to="/campaments/nadal" className="info-title">Nadal</Link>
                                 </div>
+                                <hr className='hrsep'/>
                                 <div className="separation">
                                     <Link to="/campaments/pasqua" className="info-title">Pasqua</Link>
                                 </div>
+                                <hr className='hrsep'/>
                                 <div className="separation">
                                     <Link to="/campaments/adults" className="info-title">Adults</Link>
                                 </div>
+                                <hr className='hrsep'/>
                                 <div className="separation">
                                     <Link to="/campaments/multiaventura" className="info-title">Multiaventura</Link>
                                 </div>
+                                <hr className='hrsep'/>
                                 <div className="separation">
                                     <Link to="/campaments/esportius" className="info-title">Esportius</Link>
                                 </div>
@@ -76,9 +84,11 @@ export function HeaderComponent(){
                                 <div className="separation">
                                     <Link to="/escoles-de-vacances/estiu" className="info-title">Estiu</Link>
                                 </div>
+                                <hr className='hrsep'/>
                                 <div className="separation">
                                     <Link to="/escoles-de-vacances/nadal" className="info-title">Nadal</Link>
                                 </div>
+                                <hr className='hrsep'/>
                                 <div className="separation">
                                     <Link to="/escoles-de-vacances/pasqua" className="info-title">Pasqua</Link>
                                 </div>
@@ -93,21 +103,27 @@ export function HeaderComponent(){
                                 <div className="separation">
                                     <Link to="/animacions/aniversaris" className="info-title">Aniversaris</Link>
                                 </div>
+                                <hr className='hrsep'/>
                                 <div className="separation">
                                     <Link to="/animacions/halloween" className="info-title">Halloween</Link>
                                 </div>
+                                <hr className='hrsep'/>
                                 <div className="separation">
                                     <Link to="/animacions/tallers" className="info-title">Tallers</Link>
                                 </div>
+                                <hr className='hrsep'/>
                                 <div className="separation">
                                     <Link to="/animacions/scape-room" className="info-title">Scape Room</Link>
                                 </div>
+                                <hr className='hrsep'/>
                                 <div className="separation">
                                     <Link to="/animacions/jocs-populars" className="info-title">Jocs Populars</Link>
                                 </div>
+                                <hr className='hrsep'/>
                                 <div className="separation">
                                     <Link to="/animacions/gimcanes" className="info-title">Gimcanes</Link>
                                 </div>
+                                <hr className='hrsep'/>
                                 <div className="separation">
                                     <Link to="/animacions" className="info-title">Més...</Link>
                                 </div>
@@ -123,18 +139,23 @@ export function HeaderComponent(){
                                 <div className="separation">
                                     <Link to="/extraescolars/legoblocks" className="info-title">LegoBlocks</Link>
                                 </div>
+                                <hr className='hrsep'/>
                                 <div className="separation">
                                     <Link to="/extraescolars/diverciencia" className="info-title">Diverciència</Link>
                                 </div>
+                                <hr className='hrsep'/>
                                 <div className="separation">
                                     <Link to="/extraescolars/minixef" className="info-title">Minixef</Link>
                                 </div>
+                                <hr className='hrsep'/>
                                 <div className="separation">
                                     <Link to="/extraescolars/imaginart" className="info-title">Imaginart</Link>
                                 </div>
+                                <hr className='hrsep'/>
                                 <div className="separation">
                                     <Link to="/extraescolars/patinatge" className="info-title">Patinatge</Link>
                                 </div>
+                                <hr className='hrsep'/>
                                 <div className="separation">
                                     <Link to="/extraescolars" className="info-title">I moltes més...</Link>
                                 </div>

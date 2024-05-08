@@ -289,11 +289,31 @@ img{
   background-color: var(--primary-brand-color);
 }
 
+.hrAboutUs{
+  visibility: hidden;
+  margin: 0;
+  border: none;
+  width: 0%;
+  border: 1px solid var(--primary-brand-color);
+
+  transition: 0.5s;
+
+}
+
+#aboutus:hover .hrAboutUs{
+  border: 1px solid var(--secondary-brand-color);
+  visibility: visible;
+  margin-block: 20px;
+  width: 100%;
+}
+
 .section-title {
 
   color: var(--terciary-brand-color);
   font-family: 'Comico';
   font-size: 50px;
+
+  transition: 0.2s;
 
 }
 

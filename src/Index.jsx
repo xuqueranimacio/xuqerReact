@@ -109,6 +109,7 @@ export function Index(){
                             <span className="firstTitle">El nostre objectiu:</span>
                             <br /> 
                             <span className="secondTitle">Un Somriure</span>
+                            <hr className="hrAboutUs"/>
                         </h2>
                         <p>
                             La nostra passió per l'animació és el motor que impulsa la nostra empresa. A Xúquer

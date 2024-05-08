@@ -1,6 +1,13 @@
 .activities {
     padding-top: 0;
     height: auto;
+    background-image: linear-gradient(to right bottom, #f07e5d, #f47956, #f7744f, #fa6f47, #fd6a40);
+}
+
+.activities:hover .section-title {
+
+    transform: translateX(20px);
+
 }
 
 .activitiesgrid {
@@ -31,6 +38,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.card-img-grid:hover {
+    transform: translateY(-20px);
 }
 
 .card-img-grid::after {
@@ -125,10 +136,11 @@
     padding: 20px;
     border: 2px solid var(--primary-brand-color);
     border-radius: var(--border-radius);
+    
 }
 
 .naranja {
-    background-color: var(--primary-brand-color);
+    background-image: linear-gradient(to right bottom, #ff9f84, #ff9273, #ff8562, #ff7851, #fd6a40);
     border-radius: var(--border-radius);
 }
 
@@ -168,7 +180,7 @@
 }
 
 .naranja .info p {
-    color: #dadada;
+    color: #ffecec;
 }
 
 .contact-activitats{
