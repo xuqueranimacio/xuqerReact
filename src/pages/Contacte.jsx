@@ -50,7 +50,7 @@ export function Contacte() {
             <button type="submit" className="contact-activitats botonrj">
               Enviar
             </button>
-            <p>*Xúquer Animació no guardará ninguno de los datos, ni compartirá éstos mismos a ninguna otra entidad o persona.</p>
+            <p>*Xúquer Animació no guardarà cap de les dades, ni compartirà estos mateixos a cap altra entitat o persona.</p>
           </form>
       </section>
             <FooterComponent />

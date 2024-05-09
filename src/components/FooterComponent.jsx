@@ -1,4 +1,5 @@
 import footerLogo from '../img/logo/logo-xuquer-animacio-vectors_page-0001.png'
+import { Link } from 'react-router-dom'
 
 export function FooterComponent(){
     return (
@@ -22,10 +23,10 @@ export function FooterComponent(){
                 </div>
                 <div className="footer-section">
                     <h2>Activitats</h2>
-                    <a href="activitats/activitats.html.html#campaments">Campaments</a>
-                    <a href="activitats/activitats.html.html#escola-de-vacances">Escola de Vacances</a>
-                    <a href="activitats/activitats.html.html#extraescolars">Extrescolars</a>
-                    <a href="activitats/activitats.html.html#aniversaris">Aniversaris</a>
+                    <Link href="/campaments">Campaments</Link>
+                    <Link href="/escoles-de-vacances">Escola de Vacances</Link>
+                    <Link href="/extraescolars">Extrescolars</Link>
+                    <Link href="/animacions">Animacions</Link>
                 </div>
                 <div className="footer-section">
                     <h2>Xarxes socials</h2>
