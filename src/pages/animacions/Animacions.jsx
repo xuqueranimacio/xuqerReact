@@ -14,6 +14,7 @@ import gimcanes from "../../img/animacions/gimcanes/Principal.jpg"
 import halloween from "../../img/animacions/halloween/principal.jpg"
 import tallers from "../../img/animacions/tallers/Principal.jpg"
 import jocsdefusta from "../../img/animacions/jocs de fusta/Principal.png"
+import comunions from "../../img/animacions/comunions/Principal.jpg"
 
 import { useEffect } from "react"
 
@@ -26,6 +27,14 @@ export function Animacions() {
             <HeaderComponent />
             <SectionTitle>Animacions</SectionTitle>
             <ActivitatsMenu>
+
+                <ActivitatsCardNaranja
+                    titulo="Comunions"
+                    texto="Xúquer Animació és la teua millor opció per a convertir la comunió del teu fill en
+                    un dia inoblidable."
+                    imgurl={comunions}
+                    pagina="/animacions/comunions"
+                />
                 <ActivitatsCard
                     titulo="Aniversaris"
                     texto="A la nostra cultura valenciana els aniversaris son essencials per a crear

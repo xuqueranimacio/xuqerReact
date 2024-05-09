@@ -30,8 +30,8 @@ export function Nosaltres() {
                 />
                 <ActivitatsCardNaranja
                     titulo="Equip"
-                    texto="Et presento l'equip de Xuquer Animació, comptem amb els millors professionals perquè aquells
-                     que més estimem es sentin com a casa, es diverteixin i aprenguin al mateix temps."
+                    texto="Et presente l'equip de Xuquer Animació, comptem amb els millors professionals perquè aquells
+                     que més estimem es senten com a casa, es divertisquen i aprenguen al mateix temps."
                     imgurl={equip}
                     pagina="/nosaltres/equip"
                 />

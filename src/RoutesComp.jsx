@@ -37,6 +37,7 @@ import { AScap } from './pages/animacions/AScap';
 import { AJocs } from './pages/animacions/AJocs';
 import { ATall } from './pages/animacions/ATall';
 import { AJFusta } from './pages/animacions/AJFusta';
+import { ACom } from './pages/animacions/ACom';
 
 //NOSALTRES
 import { Nosaltres } from './pages/nosaltres/Nosaltres';
@@ -50,6 +51,7 @@ import { Equip } from './pages/nosaltres/Equip';
 import { NotFound } from './pages/NotFount';
 import { Metodologia } from './pages/nosaltres/Metodologia';
 import { Valors } from './pages/nosaltres/Valors';
+
 
 
 
@@ -87,6 +89,7 @@ export const RoutesComp = () => {
                 <Route path="/animacions/jocs-de-fusta" element={<AJFusta />} />
                 <Route path="/animacions/jocs-populars" element={<AJocs />} />
                 <Route path="/animacions/tallers" element={<ATall />} />
+                <Route path="/animacions/comunions" element={<ACom />} />
 
                 {/* EXTRAESCOLARS */}
                 <Route path="/extraescolars" element={<Extraescolars />} />
