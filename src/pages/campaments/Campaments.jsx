@@ -10,6 +10,7 @@ import nadal from "../../img/campaments/nadal/1.jpg"
 import pasquea from "../../img/campaments/pasqua/Principal.jpg"
 import adults from "../../img/campaments/adults/Principal-min.jpg"
 import multiaventura from "../../img/campaments/multiaventura/Principal.jpg"
+import esportius from "../../img/campaments/esportius/Principal.jpg"
 
 import { useEffect } from "react"
 
@@ -53,6 +54,13 @@ export function Campaments(){
                     oferir als i les participants una aventura integral." 
                     imgurl={multiaventura}
                     pagina="/campaments/multiaventura"
+                />
+                <ActivitatsCardNaranja 
+                    titulo="Esportius" 
+                    texto="Els nostres campaments esportius estan pensats per a fomentar 
+                    el treball en equip i millorar els resultats en l’àmbit esportiu." 
+                    imgurl={esportius}
+                    pagina="/campaments/esportius"
                 />
             </ActivitatsMenu>
 

@@ -10,6 +10,7 @@ import { CAdults } from './pages/campaments/CAdults';
 import { CNadal } from './pages/campaments/CNadal';
 import { CPasqua } from './pages/campaments/CPasqua';
 import { CMulti } from './pages/campaments/CMulti';
+import { CEsportius } from './pages/campaments/CEsportius';
 
 // ESCOLES DE VACANCES
 import { Escoles } from './pages/escoles/Escoles';
@@ -67,6 +68,7 @@ export const RoutesComp = () => {
                 <Route path="/campaments/pasqua" element={<CPasqua />} />
                 <Route path="/campaments/adults" element={<CAdults />} />
                 <Route path="/campaments/multiaventura" element={<CMulti />} />
+                <Route path="/campaments/esportius" element={<CEsportius />} />
 
                 {/* ESCOLES DE VACANCES */}
                 <Route path="/escoles-de-vacances" element={<Escoles />} />
