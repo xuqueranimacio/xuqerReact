@@ -1,11 +1,6 @@
 import { HeaderComponent } from "../../components/HeaderComponent"
 import { ImageWrapper } from "../../components/ImageWrapper"
 import { InfoSectionWrapper, InfoSectionCardLeft, InfoSectionCardRight } from "../../components/InfoSection"
-import { GalleryWrapper } from "../../components/GalleryWrapper"
-
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import { Navigation } from 'swiper/modules';
 
 // IMGS
 import img1 from "/src/img/campaments/pasqua/Principal.jpg"
@@ -19,15 +14,6 @@ import img8 from "/src/img/campaments/pasqua/7.jpg"
 import img9 from "/src/img/campaments/pasqua/8.jpg"
 import img10 from "/src/img/campaments/pasqua/9.jpg"
 import { FooterComponent } from "../../components/FooterComponent";
-
-export const imageUrls = [
-    img6,
-    img7,
-    img8,
-    img9,
-    img10
-];
-
 
 
 export function CPasqua() {
@@ -59,26 +45,6 @@ export function CPasqua() {
                     creativitat i ensenyaments valuosos perquè els xiquets puguen viure unes vacances inoblidables.
                 </InfoSectionCardLeft>
             </InfoSectionWrapper>
-            <GalleryWrapper>
-                <Swiper
-                    modules={[Navigation]}
-                    navigation
-                    autoplay={{
-                        "delay": 5000,
-                        "disableOnInteraction": false
-                    }}
-                    spaceBetween={50}
-                    slidesPerView={1}
-                    onSlideChange={() => console.log('slide change')}
-                    onSwiper={(swiper) => console.log(swiper)}
-                >
-                    {imageUrls.map((url, index) => (
-                        <SwiperSlide>
-                            <img key={index} src={url} className="myimg"></img>
-                        </SwiperSlide>
-                    ))}
-                </Swiper>
-            </GalleryWrapper>
             <FooterComponent />
         </>
     )

@@ -1,33 +1,13 @@
 import { HeaderComponent } from "../../components/HeaderComponent"
 import { ImageWrapper } from "../../components/ImageWrapper"
 import { InfoSectionWrapper, InfoSectionCardLeft, InfoSectionCardRight } from "../../components/InfoSection"
-import { GalleryWrapper } from "../../components/GalleryWrapper"
-
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import { Navigation } from 'swiper/modules';
 
 // IMGS
 import img1 from "/src/img/campaments/nadal/Principal.jpg"
 import img2 from "/src/img/campaments/nadal/1.jpg"
 import img3 from "/src/img/campaments/nadal/2.jpg"
 import img4 from "/src/img/campaments/nadal/3.jpg"
-import img5 from "/src/img/campaments/nadal/4.jpg"
-import img6 from "/src/img/campaments/nadal/5.jpg"
-import img7 from "/src/img/campaments/nadal/3.jpg"
-import img8 from "/src/img/campaments/nadal/4.jpg"
-import img9 from "/src/img/campaments/nadal/1.jpg"
-import img10 from "/src/img/campaments/nadal/2.jpg"
 import { FooterComponent } from "../../components/FooterComponent";
-
-export const imageUrls = [
-    img6,
-    img7,
-    img8,
-    img9,
-    img10
-];
-
 
 
 export function CNadal() {
@@ -58,26 +38,6 @@ export function CNadal() {
                     la creativitat i la promoció de valors positius.
                 </InfoSectionCardLeft>
             </InfoSectionWrapper>
-            <GalleryWrapper>
-                <Swiper
-                    modules={[Navigation]}
-                    navigation
-                    autoplay={{
-                        "delay": 5000,
-                        "disableOnInteraction": false
-                    }}
-                    spaceBetween={50}
-                    slidesPerView={1}
-                    onSlideChange={() => console.log('slide change')}
-                    onSwiper={(swiper) => console.log(swiper)}
-                >
-                    {imageUrls.map((url, index) => (
-                        <SwiperSlide>
-                            <img key={index} src={url} className="myimg"></img>
-                        </SwiperSlide>
-                    ))}
-                </Swiper>
-            </GalleryWrapper>
             <FooterComponent />
         </>
     )
