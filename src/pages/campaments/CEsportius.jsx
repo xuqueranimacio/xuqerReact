@@ -22,7 +22,7 @@ export function CEsportius() {
             <HeaderComponent />
             <ImageWrapper
                 imgURL={img1}
-                title="Campament Esportius"
+                title="Esportius"
             />
             <InfoSectionWrapper>
                 <InfoSectionCardRight imgURL={img2}>
