@@ -22,10 +22,11 @@ export function ACom() {
             />
             <InfoSectionWrapper>
                 <InfoSectionCardRight imgURL={img2}>
-                    Xúquer Animació és la teua millor opció per a convertir la comunió del teu fill en
-                    un dia inoblidable. Amb la seua experiència i creativitat, Xúquer Animació ofereix
-                    un paquet d'animació ple de diversió i entreteniment per als xicotets i les seves
-                    famílies, sempre personalitzat a les necessitats dels usuaris.
+                    Xúquer Animació és la teua millor opció per a
+                    convertir la comunió del teu fill o filla en un dia inoblidable. Amb la seua
+                    experiència i creativitat, Xúquer Animació ofereix un paquet d'animació ple
+                    de diversió i entreteniment per als més menuts i les seues famílies, sempre
+                    personalitzat a les necessitats dels usuaris.
                 </InfoSectionCardRight>
                 <InfoSectionCardLeft imgURL={img3}>
                     Imagina un dia ple de rialles, jocs i activitats dissenyades especialment per als xiquets.
@@ -38,7 +39,7 @@ export function ACom() {
                 </InfoSectionCardRight>
                 <InfoSectionCardLeft imgURL={img5}>
                     No ho penseu més i confieu en Xúquer Animació per a fer de la comunió del vostre fill/a un esdeveniment inoblidable.
-                    <br />Deixeu que la màgia comence!
+                    <br /><br />Deixeu que la màgia comence!
                 </InfoSectionCardLeft>
             </InfoSectionWrapper>
             <FooterComponent />

@@ -18,8 +18,10 @@ export function AScap() {
             />
             <InfoSectionWrapper>
                 <InfoSectionCardRight imgURL={img2}>
-                    ¡Descobreix una aventura plena d'intriga i emoció amb els nostres escape romos.
-                    Endinsa’t en un desafiament on el temps corre en contra teua i sols el teu enginy i treball en equip et portaran a la victòria.
+                    Descobreix una aventura plena
+                    d'intriga i emoció amb els nostres escape rooms. Endinsa’t en un
+                    desafament on el temps corre en contra teua i sols el teu enginy
+                    i treball en equip et portaran a la victòria.
                 </InfoSectionCardRight>
                 <InfoSectionCardLeft imgURL={img3}>
                     No perdes l'oportunitat de viure una experiència única i emocionant amb els escape rooms de Xúquer Animació.

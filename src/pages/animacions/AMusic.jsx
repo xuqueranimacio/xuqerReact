@@ -36,13 +36,17 @@ export function AMusic() {
             />
             <InfoSectionWrapper>
                 <InfoSectionCardRight imgURL={img2}>
-                    El musical realitzat per Xúquer Animació no sols és una experiència d'entreteniment,
-                    sinó també un vehicle per a l'estímul de l'art i la cultura en la que els xiquets i
-                    xiquetes es converteixen en auténtics protagonistes i directors d’un musical de película.
+                    El musical realitzat per Xúquer
+                    Animació no sols és una experiència d'entreteniment, sinó
+                    també un vehicle per a l'estímul de l'art i la cultura en la qual els
+                    xiquets i xiquetes es converteixen en autèntics protagonistes i
+                    directors d'un musical de pel·lícula.
                 </InfoSectionCardRight>
                 <InfoSectionCardLeft imgURL={img3}>
-                    Els nostres musicals radiquen en diversos aspectes fonamentals, donant  oportunitat per al
-                    desenvolupament i la diversió del nostres menuts talents locals.
+                    Els nostres musicals es fonamenten
+                    en valors molt diversos, donant oportunitat per al
+                    desenvolupament i la diversió del nostres talents locals més
+                    menuts.
                 </InfoSectionCardLeft>
                 <InfoSectionCardRight imgURL={img4}>
                     Mitjançant les nostres produccions, portem a escena històries captivadores que treballen

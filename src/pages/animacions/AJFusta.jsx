@@ -47,41 +47,33 @@ export function AJFusta() {
                     com Mèxic, Cuba i República Dominicana
                 </InfoSectionCardLeft>
                 <InfoSectionCardRight imgURL={img3}>
-                    El "Jenga” és un joc de destresa física i equilibri.
-                    Consisteix en una torre construïda amb blocs de
-                    fusta apilats en forma de torre de tres blocs per
-                    fila, formant inicialment una estructura sòlida.
-                    Cada jugador, per torns, retira un bloc de la torre i
-                    el col·loca en la part superior, creant així una
-                    torre més alta i menys estable. L'objectiu és evitar
-                    que la torre es derrui durant el torn d'un mateix,
-                    ja que el jugador que fa que la torre es derrui
-                    perd.
+                    El "Jenga” és un joc de destresa
+                    física i equilibri. Consisteix en una torre construïda amb blocs
+                    de fusta apilats en forma de torre de tres blocs per fla, formant
+                    inicialment una estructura sòlida. Cada jugador, per torns,
+                    retira un bloc de la torre i el col·loca en la part superior, creant
+                    així una torre més alta i menys estable. L'objectiu és evitar que
+                    la torre es derruïsca durant el torn d'un mateix, ja que el jugador
+                    que fa que la torre es derruïsca perd.
 
                 </InfoSectionCardRight>
                 <InfoSectionCardLeft imgURL={img4}>
-                    El "Llançanell” és u joc popular que implica
-                    llançar anells cap a un pal o una estructura
-                    similar, amb l'objectiu d'encestar els anells en
-                    l'objectiu. Pot haver-hi diferents variants del joc,
-                    com llançar els aros des d'una distància específica
-                    o utilitzant diferents tècniques de llançament. El
-                    joc de llançar anells és tant una activitat
-                    recreativa com una competició, depenent de com
-                    s’esctructure.
+                    El "Llançanell" és u joc popular que
+                    implica llançar anells cap a un pal o una estructura similar, amb l'objectiu
+                    d'encestar els anells en l'objectiu. Pot haver-hi diferents variants del joc,
+                    com llançar els cèrcols des d'una distància específica o utilitzant diferents
+                    tècniques de llançament. El joc de llançar anells és tant una activitat
+                    recreativa com una competició, depenent de com s'estructure.
 
                 </InfoSectionCardLeft>
                 <InfoSectionCardRight imgURL={img5}>
-                    El "Connecta4” també conegut també com a
-                    Quatre en Línia, és un joc d'estratègia per a dos
-                    jugadors. . L'objectiu del joc és ser el primer a
-                    connectar quatre de les teues fitxes del mateix
-                    color en línia. És un joc d'estratègia senzill però
-                    que requereix pensar amb antelació i planificació
-                    per bloquejar al teu oponent mentre busques la
-                    teua pròpia oportunitat de connectar quatre
-                    fitxes. És un joc popular i fàcil d'aprendre,
-                    adequat per a jugadors de totes les edats.
+                    El "Connecta4" també conegut com a Quatre en
+                    Línia, és un joc d'estratègia per a dos jugadors. L'objectiu és ser el primer a
+                    connectar quatre de les teues fitxes del mateix color en línia. És un joc
+                    d'estratègia senzill, però que requereix pensar amb antelació i planificació
+                    per bloquejar al teu oponent mentre busques la teua pròpia oportunitat de
+                    connectar quatre fitxes. És un joc popular i fàcil d'aprendre, adequat per a
+                    jugadors de totes les edats.
 
                 </InfoSectionCardRight>
                 <InfoSectionCardLeft imgURL={img6}>
@@ -93,7 +85,7 @@ export function AJFusta() {
                     llançament del pal. El joc de les bitlles és
                     practicat en tot el món i pot ser tant una activitat
                     recreativa com una competició professional en
-                    esdeveniments com lligues de bitlles i tornejos
+                    esdeveniments com lligues de bitlles i tornejos.
 
 
                 </InfoSectionCardLeft>

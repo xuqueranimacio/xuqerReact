@@ -30,15 +30,16 @@ export function Animacions() {
 
                 <ActivitatsCardNaranja
                     titulo="Comunions"
-                    texto="Xúquer Animació és la teua millor opció per a convertir la comunió del teu fill en
-                    un dia inoblidable."
+                    texto=" Xúquer Animació és la teua millor opció per a convertir la 
+                    comunió del teu fll o flla en un dia inoblidable."
                     imgurl={comunions}
                     pagina="/animacions/comunions"
                 />
                 <ActivitatsCard
                     titulo="Aniversaris"
-                    texto="A la nostra cultura valenciana els aniversaris son essencials per a crear
-                    moments inoblidables i celebrar amb alegria cada any que passa."
+                    texto="A la nostra cultura valenciana els
+                    aniversaris són essencials per a crear moments inoblidables i
+                    celebrar amb alegria cada any que passa."
                     imgurl={aniversaris}
                     pagina="/animacions/aniversaris"
                 />
@@ -52,28 +53,34 @@ export function Animacions() {
                 />
                 <ActivitatsCard
                     titulo="Halloween"
-                    texto="¡Prepara't per viure  una experiència terroríficament emocionant amb els nostres passatges del terror!"
+                    texto="Prepara't per viure una experiència
+                    terrorífcament emocionant amb els nostres passatges del
+                    terror!"
                     imgurl={halloween}
                     pagina="/animacions/halloween"
                 />
 
                 <ActivitatsCardNaranja
                     titulo="Scape Room"
-                    texto="¡Descobreix una aventura plena d'intriga i emoció amb els nostres escape romos.
-                    Endinsa’t en un desafiament on el temps corre en contra teua i sols el teu enginy i treball en equip et portaran a la victòria."
+                    texto="Descobreix una aventura plena
+                    d'intriga i emoció amb els nostres escape rooms. Endinsa’t en un
+                    desafament on el temps corre en contra teua i sols el teu enginy
+                    i treball en equip et portaran a la victòria."
                     imgurl={scaperoom}
                     pagina="/animacions/scape-room"
                 />
                 <ActivitatsCard
-                    titulo="Jocs Populars"
-                    texto="Els nostres jocs populars són una excel·lent manera de fomentar el treball en equip i la competència
-                    amistosa entre els participants."
+                    titulo="Jocs"
+                    texto="Els nostres jocs són una excel·lent manera de fomentar el
+                    treball en equip i la competència amistosa entre els
+                    participants."
                     imgurl={jocspopulars}
                     pagina="/animacions/jocs-populars"
                 />
                 <ActivitatsCardNaranja
                     titulo="Gimcanes"
-                    texto="¡Endinsa't en una aventura plena de diversió i emoció amb les gimcanes de Xúquer Animació!"
+                    texto="E ndinsa't en una aventura plena de
+                    diversió i emoció amb les gimcanes de Xúquer Animació!"
                     imgurl={gimcanes}
                     pagina="/animacions/gimcanes"
                 />
@@ -93,9 +100,9 @@ export function Animacions() {
                 />
                 <ActivitatsCard
                     titulo="Jocs de Fusta"
-                    texto="Els nostres jocs de fusta són perfectes per portar a esdeveniments a l'aire lliure, festes.
-                    Són duradors, resistents i estan fets per a resistir el pas del temps, la qual cosa els converteix 
-                    en una excel·lent inversió per a gaudir durant molts anys"
+                    texto="Els nostres jocs de fusta són
+                    perfectes per portar a esdeveniments a l'aire lliure. Comptem
+                    amb una gran varietat que permet el joc lliure i l’exploració."
                     imgurl={jocsdefusta}
                     pagina="/animacions/jocs-de-fusta"
                 />

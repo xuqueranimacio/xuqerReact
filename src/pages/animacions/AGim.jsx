@@ -35,19 +35,23 @@ export function AGim() {
             />
             <InfoSectionWrapper>
                 <InfoSectionCardRight imgURL={img2}>
-                    ¡Endinsa't en una aventura plena de diversió i emoció amb les gimcanes de Xúquer Animació!
+                    Endinsa't en una aventura plena de
+                    diversió i emoció amb les gimcanes de Xúquer Animació!
                 </InfoSectionCardRight>
                 <InfoSectionCardLeft imgURL={img3}>
-                    Oferim una amplia gama d’emocionants gimcanes dissenyades per desafiar les teues habilitats,
-                    promoure el treball en equip i brindar-te moments inoblidables. Des de competicions de curses
-                    d'obstacles fins a emocionants conquestes del tresor.
+                    Oferim una àmplia gamma
+                    d’emocionants gimcanes dissenyades per desafar les teues
+                    habilitats, promoure el treball en equip i brindar-te moments
+                    inoblidables. Des de competicions de curses d'obstacles fns a
+                    emocionants conquestes del tresor.
                 </InfoSectionCardLeft>
                 <InfoSectionCardRight imgURL={img4}>
-                    Organitzem gimcanes per a una varietat d'esdeveniments.
-                    A més, les nostres gimcanes són una excel·lent manera de promoure la cooperació,
-                    el lideratge i la resolució de problemes entre els participants. Treballant junts per superar
-                    desafiaments i completar tasques, els equips reforcen els seus llaços i creen records inoblidables
-                    que perduraran molt temps després que acabe l'aventura.
+                    Organitzem gimcanes per a una varietat
+                    d'esdeveniments, les quals són una excel·lent manera de promoure la
+                    cooperació, el lideratge i la resolució de problemes entre els participants.
+                    Treballant junts per superar desafiaments i completar tasques, els equips
+                    reforcen els seus llaços i creen records inoblidables que perduraran molt de
+                    temps després que acabe l'aventura.
 
                 </InfoSectionCardRight>
                 <InfoSectionCardLeft imgURL={img5}>

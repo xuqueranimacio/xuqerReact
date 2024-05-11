@@ -18,17 +18,21 @@ export function AJocs() {
             <HeaderComponent />
             <ImageWrapper
                 imgURL={img1}
-                title="Jocs Populars"
+                title="Jocs"
             />
             <InfoSectionWrapper>
                 <InfoSectionCardRight imgURL={img2}>
-                    La nostra empresa ofereix una àmplia varietat de jocs tradicionals i activitats recreatives que són
-                    perfectes per animar qualsevol esdeveniment, des de festes familiars fins a esdeveniments corporatius.
-                    Des de jocs clàssics com la cursa de sacs, la cursa de culleres i la recerca del tresor, fins a activitats
-                    més modernes com el bloq-equip, el tir amb arc, tenim activitats per a tots els gustos i edats.
+                    La nostra empresa ofereix una
+                    àmplia varietat de jocs tradicionals i activitats recreatives que
+                    són perfectes per animar qualsevol esdeveniment, des de festes
+                    familiars fns a esdeveniments corporatius. Des de jocs clàssics
+                    com la cursa de sacs, la cursa de culleres i la recerca del tresor,
+                    fns a activitats més modernes com el bloq-equip o el tir amb
+                    arc, tenim activitats per a tots els gustos i edats.
                 </InfoSectionCardRight>
                 <InfoSectionCardLeft imgURL={img3}>
-                    Els nostres jocs populars són una excel·lent manera de fomentar el treball en equip i la competència
+                    Els nostres jocs són una excel·lent
+                    manera de fomentar el treball en equip i la competència
                     amistosa entre els participants.
                 </InfoSectionCardLeft>
                 <InfoSectionCardRight imgURL={img4}>

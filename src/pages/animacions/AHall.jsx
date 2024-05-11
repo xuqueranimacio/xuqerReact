@@ -40,10 +40,13 @@ export function AHall() {
                     ¡Prepara't per viure  una experiència terroríficament emocionant amb els nostres passatges del terror!
                 </InfoSectionCardRight>
                 <InfoSectionCardLeft imgURL={img3}>
-                    Submergeix-te en un món de misteri i suspens on cada racó amaga un nou sotrac. Els nostres passatges del
-                    terror estan dissenyats per a desafiar les teues pors més profundes i mantenir-te en vilo a cada pas
-                    que dones. Amb decorats detallats, efectes especials impressionants i actors experts en l'art de l'espant,
-                    et garantim una experiència immersiva que et farà sentir com si estigueres dins d'una pel·lícula de terror.
+                    Submergeix-te en un món de misteri i suspens
+                    on cada racó amaga un nou sotrac. Els nostres passatges del terror estan
+                    dissenyats per a desafiar les teues pors més profundes i mantenir-te en
+                    suspens a cada pas que dones. Amb decorats detallats, efectes especials
+                    impressionants i actors experts en l'art de l'espant, et garantim una
+                    experiència immersiva que et farà sentir com si estigueres dins d'una
+                    pel·lícula de terror.
                 </InfoSectionCardLeft>
                 <InfoSectionCardRight imgURL={img4}>
                     Ja siga que vingues en grup amb amics valents o desafies els teus propis límits en solitari, els nostres passatges
