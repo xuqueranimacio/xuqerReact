@@ -117,7 +117,7 @@ export function HeaderComponent(){
                                 </div>
                                 <hr className='hrsep'/>
                                 <div className="separation">
-                                    <Link to="/animacions/jocs-populars" className="info-title">Jocs Populars</Link>
+                                    <Link to="/animacions/jocs-populars" className="info-title">Jocs</Link>
                                 </div>
                                 <hr className='hrsep'/>
                                 <div className="separation">
