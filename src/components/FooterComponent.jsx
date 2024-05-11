@@ -13,7 +13,12 @@ export function FooterComponent(){
                 <div className="footer-section">
                     <h2>Contacte</h2>
                     <a>+34 621 319 967</a>
-                    <a href="mailto:xuqueranimacio@hotmail.com">Correu Electrònic</a>
+                    <a 
+                        href="https://mail.google.com/mail/?view=cm&fs=1&to=xuqueranimacio@gmail.com"
+                        target="_blank"
+                    >
+                        Correu Electrònic
+                    </a>
                     <a>Albalat de la Ribera, València</a>
                 </div>
                 <div className="footer-section">
@@ -23,14 +28,14 @@ export function FooterComponent(){
                 </div>
                 <div className="footer-section">
                     <h2>Activitats</h2>
-                    <Link href="/campaments">Campaments</Link>
-                    <Link href="/escoles-de-vacances">Escola de Vacances</Link>
-                    <Link href="/extraescolars">Extrescolars</Link>
-                    <Link href="/animacions">Animacions</Link>
+                    <Link to="/campaments">Campaments</Link>
+                    <Link to="/escoles-de-vacances">Escola de Vacances</Link>
+                    <Link to="/extraescolars">Extrescolars</Link>
+                    <Link to="/animacions">Animacions</Link>
                 </div>
                 <div className="footer-section">
                     <h2>Xarxes socials</h2>
-                    <a href="https://www.instagram.com/xuqueranimacio/">Instagram</a>
+                    <a href="https://www.instagram.com/xuqueranimacio/" target="_blank">Instagram</a>
                     <a>Facebook</a>
                 </div>
             </div>
