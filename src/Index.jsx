@@ -62,7 +62,7 @@ export function Index(){
                     <SwiperSlide>
                         <div className="absolute-title">
                                 <Link to="/escoles-de-vacances">
-                                    <h1>Escola de Vacances</h1>
+                                    <h1>Escoles de Vacances</h1>
                                 </Link>
                                 <p>Sols els que creuen en la magia estan destinats a trobar-la</p>
                         </div>
