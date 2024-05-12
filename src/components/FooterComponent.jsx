@@ -13,11 +13,8 @@ export function FooterComponent(){
                 <div className="footer-section">
                     <h2>Contacte</h2>
                     <a>+34 621 319 967</a>
-                    <a 
-                        href="https://mail.google.com/mail/?view=cm&fs=1&to=xuqueranimacio@gmail.com"
-                        target="_blank"
-                    >
-                        Correu Electrònic
+                    <a>
+                        xuqueranimacio@gmail.com
                     </a>
                     <a>Albalat de la Ribera, València</a>
                 </div>
