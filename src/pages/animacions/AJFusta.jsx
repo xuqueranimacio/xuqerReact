@@ -58,7 +58,7 @@ export function AJFusta() {
 
                 </InfoSectionCardRight>
                 <InfoSectionCardLeft imgURL={img4}>
-                    El "Llançanell" és u joc popular que
+                    El "Llançanell" és un joc popular que
                     implica llançar anells cap a un pal o una estructura similar, amb l'objectiu
                     d'encestar els anells en l'objectiu. Pot haver-hi diferents variants del joc,
                     com llançar els cèrcols des d'una distància específica o utilitzant diferents

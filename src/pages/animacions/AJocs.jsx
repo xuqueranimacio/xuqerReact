@@ -25,9 +25,9 @@ export function AJocs() {
                     La nostra empresa ofereix una
                     àmplia varietat de jocs tradicionals i activitats recreatives que
                     són perfectes per animar qualsevol esdeveniment, des de festes
-                    familiars fns a esdeveniments corporatius. Des de jocs clàssics
+                    familiars fins a esdeveniments corporatius. Des de jocs clàssics
                     com la cursa de sacs, la cursa de culleres i la recerca del tresor,
-                    fns a activitats més modernes com el bloq-equip o el tir amb
+                    fins a activitats més modernes com el bloq-equip o el tir amb
                     arc, tenim activitats per a tots els gustos i edats.
                 </InfoSectionCardRight>
                 <InfoSectionCardLeft imgURL={img3}>

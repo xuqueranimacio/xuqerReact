@@ -105,15 +105,15 @@ export function HeaderComponent(){
                                 </div>
                                 <hr className='hrsep'/>
                                 <div className="separation">
-                                    <Link to="/animacions/halloween" className="info-title">Comunions</Link>
+                                    <Link to="/animacions/comunions" className="info-title">Comunions</Link>
                                 </div>
                                 <hr className='hrsep'/>
                                 <div className="separation">
-                                    <Link to="/animacions/tallers" className="info-title">Jocs de Fusta</Link>
+                                    <Link to="/animacions/jocs-de-fusta" className="info-title">Jocs de Fusta</Link>
                                 </div>
                                 <hr className='hrsep'/>
                                 <div className="separation">
-                                    <Link to="/animacions/scape-room" className="info-title">Scape Room</Link>
+                                    <Link to="/animacions/scape-room" className="info-title">Escape Room</Link>
                                 </div>
                                 <hr className='hrsep'/>
                                 <div className="separation">

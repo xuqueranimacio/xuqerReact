@@ -56,7 +56,7 @@ export function EEstiu() {
                 </InfoSectionCardRight>
                 <InfoSectionCardLeft imgURL={img5}>
                     No perdes l'oportunitat que els teus fills formen part d'aquesta increïble aventura d'estiu amb Xúquer Animació!
-                    <br />L'estiu està ple de possibilitats amb Xúquer Animació!
+                    <br /><br />L'estiu està ple de possibilitats amb Xúquer Animació!
                 </InfoSectionCardLeft>
             </InfoSectionWrapper>
             <GalleryWrapper>

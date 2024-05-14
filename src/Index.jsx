@@ -64,7 +64,7 @@ export function Index(){
                                 <Link to="/escoles-de-vacances">
                                     <h1>Escoles de Vacances</h1>
                                 </Link>
-                                <p>Sols els que creuen en la magia estan destinats a trobar-la</p>
+                                <p>Sols els que creuen en la màgia estan destinats a trobar-la</p>
                         </div>
                         <img className="swiper-img" src={escola} alt="" />
                     </SwiperSlide>

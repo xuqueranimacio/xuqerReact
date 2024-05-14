@@ -29,12 +29,12 @@ export function ACom() {
                     personalitzat a les necessitats dels usuaris.
                 </InfoSectionCardRight>
                 <InfoSectionCardLeft imgURL={img3}>
-                    Imagina un dia ple de rialles, jocs i activitats dissenyades especialment per als xiquets.
+                    Imagina un dia ple de rialles, jocs i activitats dissenyades especialment per als xiquets i xiquetes.
                     Des de espectacles de màgia fins a tallers creatius, passant per jocs interactius i molta
                     música, Xúquer Animació garanteix una experiència única i emocionant per a tots els convidats.
                 </InfoSectionCardLeft>
                 <InfoSectionCardRight imgURL={img4}>
-                    A més, el seu equip d'animadors altament capacitats s'encarrega de cuidar cada detall,
+                    A més, el nostre equip d’animadors i animadores altament capacitats s'encarrega de cuidar cada detall,
                     assegurant que tant els xiquets com els adults gaudisquen al màxim de la celebració.
                 </InfoSectionCardRight>
                 <InfoSectionCardLeft imgURL={img5}>

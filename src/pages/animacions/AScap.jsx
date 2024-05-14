@@ -14,7 +14,7 @@ export function AScap() {
             <HeaderComponent />
             <ImageWrapper
                 imgURL={img1}
-                title="Scape Room"
+                title="Escape Room"
             />
             <InfoSectionWrapper>
                 <InfoSectionCardRight imgURL={img2}>

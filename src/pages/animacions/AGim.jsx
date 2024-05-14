@@ -40,9 +40,9 @@ export function AGim() {
                 </InfoSectionCardRight>
                 <InfoSectionCardLeft imgURL={img3}>
                     Oferim una àmplia gamma
-                    d’emocionants gimcanes dissenyades per desafar les teues
+                    d’emocionants gimcanes dissenyades per desafiar les teues
                     habilitats, promoure el treball en equip i brindar-te moments
-                    inoblidables. Des de competicions de curses d'obstacles fns a
+                    inoblidables. Des de competicions de curses d'obstacles fins a
                     emocionants conquestes del tresor.
                 </InfoSectionCardLeft>
                 <InfoSectionCardRight imgURL={img4}>

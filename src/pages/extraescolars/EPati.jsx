@@ -19,7 +19,7 @@ import img8 from "/src/img/extraescolars/patinatge/7.jpg"
 import { FooterComponent } from "../../components/FooterComponent";
 
 const imageUrls = [
-    img2, img3, img4, img5, img6, img7, img8
+    img2, img3, img4, img7, img8
 ];
 
 
@@ -33,11 +33,11 @@ export function EPati() {
                 title="Patinatge"
             />
             <InfoSectionWrapper>
-                <InfoSectionCardRight imgURL={img2}>
+                <InfoSectionCardRight imgURL={img5}>
                     És l'activitat perfecta per a que el xiquet/a aprenga a desenvolupar tècniques per a aprendre
                     o perfeccionar slalom, girs i frenades del patinatge, mitjançant dinàmiques i jocs.
                 </InfoSectionCardRight>
-                <InfoSectionCardLeft imgURL={img3}>
+                <InfoSectionCardLeft imgURL={img6}>
                     Una activitat que combina la diversió i la pràctica d'esport.
                 </InfoSectionCardLeft>
             </InfoSectionWrapper>

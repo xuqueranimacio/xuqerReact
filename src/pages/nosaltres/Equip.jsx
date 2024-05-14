@@ -41,7 +41,7 @@ export function Equip() {
                    <ul>
                     <li>Graduats en Educació Infantil.</li>
                     <li>Graduats en Educació Primària.</li>
-                    <li>Monitors d'Activitats del Temps Lliure</li>
+                    <li>Monitors d'Activitats del Temps Lliure.</li>
                    </ul>
                 </InfoSectionCardLeft>
             </InfoSectionWrapperCustom>

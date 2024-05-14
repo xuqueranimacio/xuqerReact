@@ -26,8 +26,8 @@ export function FooterComponent(){
                 <div className="footer-section">
                     <h2>Activitats</h2>
                     <Link to="/campaments">Campaments</Link>
-                    <Link to="/escoles-de-vacances">Escola de Vacances</Link>
-                    <Link to="/extraescolars">Extrescolars</Link>
+                    <Link to="/escoles-de-vacances">Escoles de Vacances</Link>
+                    <Link to="/extraescolars">Extraescolars</Link>
                     <Link to="/animacions">Animacions</Link>
                 </div>
                 <div className="footer-section">

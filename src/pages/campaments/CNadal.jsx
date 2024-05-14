@@ -7,6 +7,7 @@ import img1 from "/src/img/campaments/nadal/Principal.jpg"
 import img2 from "/src/img/campaments/nadal/1.jpg"
 import img3 from "/src/img/campaments/nadal/2.jpg"
 import img4 from "/src/img/campaments/nadal/3.jpg"
+import img5 from "/src/img/campaments/nadal/4.jpg"
 import { FooterComponent } from "../../components/FooterComponent";
 
 

@@ -52,7 +52,7 @@ export function EPasqua() {
                 </InfoSectionCardRight>
                 <InfoSectionCardLeft imgURL={img5}>
                     No deixes passar l'oportunitat que els teus fills formen part d'aquesta experiència única de Pasqua amb Xúquer Animació!
-                    Celebra la Pasqua amb Xúquer Animació!
+                    <br /><br />Celebra la Pasqua amb Xúquer Animació!
                 </InfoSectionCardLeft>
             </InfoSectionWrapper>
             <GalleryWrapper>

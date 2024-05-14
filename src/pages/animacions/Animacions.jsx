@@ -31,7 +31,7 @@ export function Animacions() {
                 <ActivitatsCardNaranja
                     titulo="Comunions"
                     texto=" Xúquer Animació és la teua millor opció per a convertir la 
-                    comunió del teu fll o flla en un dia inoblidable."
+                    comunió del teu fill o filla en un dia inoblidable."
                     imgurl={comunions}
                     pagina="/animacions/comunions"
                 />
@@ -61,7 +61,7 @@ export function Animacions() {
                 />
 
                 <ActivitatsCardNaranja
-                    titulo="Scape Room"
+                    titulo="Escape Room"
                     texto="Descobreix una aventura plena
                     d'intriga i emoció amb els nostres escape rooms. Endinsa’t en un
                     desafament on el temps corre en contra teua i sols el teu enginy
@@ -79,7 +79,7 @@ export function Animacions() {
                 />
                 <ActivitatsCardNaranja
                     titulo="Gimcanes"
-                    texto="E ndinsa't en una aventura plena de
+                    texto="Endinsa't en una aventura plena de
                     diversió i emoció amb les gimcanes de Xúquer Animació!"
                     imgurl={gimcanes}
                     pagina="/animacions/gimcanes"

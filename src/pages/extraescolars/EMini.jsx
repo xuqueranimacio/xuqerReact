@@ -32,7 +32,7 @@ export function EMini() {
             />
             <InfoSectionWrapper>
                 <InfoSectionCardRight imgURL={img2}>
-                    Dirigida als més valents i valentes, els quals se'n menjaran la cuina siga la seua passió.
+                    Dirigida als més valents i valentes, per als quals la cuina pot acabar sent la seua passió.
                 </InfoSectionCardRight>
                 <InfoSectionCardLeft imgURL={img3}>
                     En aquesta activitat aprendran a realitzar receptes bàsiques de cuina,

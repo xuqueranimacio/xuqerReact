@@ -59,7 +59,7 @@ export function ENadal() {
                 </InfoSectionCardRight>
                 <InfoSectionCardLeft imgURL={img4}>
                     No et perdes l'oportunitat que els teus fills i filles formen part d'aquesta experiència nadalenca única amb Xúquer Animació!
-                    Viu la màgia de Nadal amb Xúquer Animació!
+                    <br /><br />Viu la màgia de Nadal amb Xúquer Animació!
                 </InfoSectionCardLeft>
             </InfoSectionWrapper>
             <GalleryWrapper>

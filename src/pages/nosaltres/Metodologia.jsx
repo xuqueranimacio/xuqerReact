@@ -33,11 +33,11 @@ export function Metodologia() {
                     distints grups d'edat, així com la gran diversitat de nivells maduratius que coexisteixen en un mateix grup.
                 </InfoSectionCardLeft>
                 <InfoSectionCardRight imgURL={img3}>
-                    El nostre projecte està pensat per a treballar en diverses metodologies:
-                    <br /><b>Metodologia activa</b>:treballant la imaginació i la creativitat de l'alumnat.
-                    <br /><b>Metodologia participativa</b>:fomentant la participació de tots els membres.
-                    <br /><b>Metodologia integradora</b>:potenciant la igualtat i la integració entre ells i elles.
-                    <br /><b>Metodologia multidisciplinar</b>:fomentant l'aprenentatge a través de l'activitat física i mental de cada xiquet i xiqueta.
+                    El nostre projecte està pensat per a treballar a través de diverses metodologies:
+                    <br /><b>Metodologia activa</b>: treballant la imaginació i la creativitat de l'alumnat.
+                    <br /><b>Metodologia participativa</b>: fomentant la participació de tots els i les membres.
+                    <br /><b>Metodologia integradora</b>: potenciant la igualtat i la integració entre ells i elles.
+                    <br /><b>Metodologia multidisciplinar</b>: fomentant l'aprenentatge a través de l'activitat física i mental de cada xiquet i xiqueta.
 
                 </InfoSectionCardRight>
                 <InfoSectionCardLeft imgURL={img4}>
