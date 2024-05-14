@@ -33,7 +33,7 @@ export function FooterComponent(){
                 <div className="footer-section">
                     <h2>Xarxes socials</h2>
                     <a href="https://www.instagram.com/xuqueranimacio/" target="_blank">Instagram</a>
-                    <a>Facebook</a>
+                    <a href='https://www.facebook.com/profile.php?id=100086562876828'>Facebook</a>
                 </div>
             </div>
         </footer>
