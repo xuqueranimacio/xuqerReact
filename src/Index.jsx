@@ -27,6 +27,7 @@ export function Index(){
         <>
     
             <HeaderComponent />
+            <h1 className="notVisible">Xuquer Animació | Animació a València </h1>
             <div className="container">
                 <div className="img-title">
                 <Swiper
