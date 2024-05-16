@@ -9,7 +9,7 @@ import { FooterComponent } from "../../components/FooterComponent"
 // IMAGES
 import diverciencia from "../../img/extraescolars/diverciencia/P2.png"
 import imaginart from "../../img/extraescolars/imaginart/Principal.png"
-import legoblocks from "../../img/extraescolars/legoblocks/Principal.jpg"
+import legoblocks from "../../img/extraescolars/legoblocks/Principal.webp"
 import minixef from "../../img/extraescolars/minixef/Principal.png"
 import patinatge from "../../img/extraescolars/patinatge/Principal.jpg"
 

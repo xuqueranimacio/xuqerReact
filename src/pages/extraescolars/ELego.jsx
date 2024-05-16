@@ -15,11 +15,10 @@ import img4 from "/src/img/extraescolars/legoblocks/3.webp"
 import img5 from "/src/img/extraescolars/legoblocks/4.webp"
 import img6 from "/src/img/extraescolars/legoblocks/5.webp"
 import img7 from "/src/img/extraescolars/legoblocks/6.webp"
-import img8 from "/src/img/extraescolars/legoblocks/7.jpg"
 import { FooterComponent } from "../../components/FooterComponent";
 
 export const imageUrls = [
-    img4, img5, img6, img7, img8
+    img4, img5, img6, img7
 ];
 
 

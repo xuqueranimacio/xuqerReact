@@ -8,7 +8,7 @@ import 'swiper/css';
 import capaments from './img/swiper/campaments.jpg'
 import equip from './img/equipo.jpg'
 import escola from './img/_MG_6815.jpg'
-import extraescolars from './img/extraescolars/legoblocks/1.jpg'
+import extraescolars from './img/extraescolars/legoblocks/1.webp'
 
 import Aos from "aos";
 
