@@ -1,16 +1,5 @@
 import { HeaderComponent } from "../components/HeaderComponent"
-import { ImageWrapper } from "../components/ImageWrapper"
-import { InfoSectionWrapper, InfoSectionCardLeft, InfoSectionCardRight } from "../components/InfoSection"
 import { FooterComponent } from "../components/FooterComponent";
-
-// IMGS
-import img1 from "/src/img/animacions/aniversaris/Principal.jpg"
-import img2 from "/src/img/animacions/aniversaris/4.jpg"
-import img3 from "/src/img/animacions/aniversaris/5.jpg"
-import img4 from "/src/img/animacions/aniversaris/6.jpg"
-import img5 from "/src/img/animacions/aniversaris/4.jpg"
-
-
 
 export function Contacte() {
     return (
@@ -33,11 +22,11 @@ export function Contacte() {
             
             <div class="twoForm">
                 <div className="flexForm">
-                    <h2>Nombre</h2>
+                    <h2>Nom</h2>
                     <input type="text" name="Nombre" />
                 </div>
                 <div className="flexForm">
-                    <h2>Apellidos</h2>
+                    <h2>Cognoms</h2>
                     <input type="text" name="Apellidos" />
                 </div>
             </div>
