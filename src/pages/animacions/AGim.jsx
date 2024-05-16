@@ -14,13 +14,14 @@ import img2 from "/src/img/animacions/gimcanes/1.jpg"
 import img3 from "/src/img/animacions/gimcanes/2.jpg"
 import img4 from "/src/img/animacions/gimcanes/3.jpg"
 import img5 from "/src/img/animacions/gimcanes/4.jpg"
+import img6 from "/src/img/animacions/gimcanes/5.jpg"
+import img7 from "/src/img/animacions/gimcanes/6.jpg"
+import img8 from "/src/img/animacions/gimcanes/7.jpg"
+import img9 from "/src/img/animacions/gimcanes/8.jpg"
+import img10 from "/src/img/animacions/gimcanes/9.jpg"
 
 export const imageUrls = [
-    '/src/img/animacions/gimcanes/5.jpg',
-    '/src/img/animacions/gimcanes/6.jpg',
-    '/src/img/animacions/gimcanes/7.jpg',
-    '/src/img/animacions/gimcanes/8.jpg',
-    '/src/img/animacions/gimcanes/9.jpg',
+    img6, img7, img8, img9, img10
 ];
 
 
