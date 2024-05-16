@@ -8,16 +8,16 @@ import 'swiper/css';
 import { Navigation } from 'swiper/modules';
 
 // IMGS
-import img1 from "/src/img/campaments/multiaventura/Principal.jpg"
-import img2 from "/src/img/campaments/multiaventura/1.jpg"
-import img3 from "/src/img/campaments/multiaventura/2.jpg"
-import img4 from "/src/img/campaments/multiaventura/3.jpg"
-import img5 from "/src/img/campaments/multiaventura/4.jpg"
-import img6 from "/src/img/campaments/multiaventura/5.jpg"
-import img7 from "/src/img/campaments/multiaventura/6.jpg"
-import img8 from "/src/img/campaments/multiaventura/7.jpg"
-import img9 from "/src/img/campaments/multiaventura/8.jpg"
-import img10 from "/src/img/campaments/multiaventura/9.jpg"
+import img1 from "/src/img/campaments/multiaventura/Principal.webp"
+import img2 from "/src/img/campaments/multiaventura/1.webp"
+import img3 from "/src/img/campaments/multiaventura/2.webp"
+import img4 from "/src/img/campaments/multiaventura/3.webp"
+import img5 from "/src/img/campaments/multiaventura/4.webp"
+import img6 from "/src/img/campaments/multiaventura/5.webp"
+import img7 from "/src/img/campaments/multiaventura/6.webp"
+import img8 from "/src/img/campaments/multiaventura/7.webp"
+import img9 from "/src/img/campaments/multiaventura/8.webp"
+import img10 from "/src/img/campaments/multiaventura/9.webp"
 import { FooterComponent } from "../../components/FooterComponent";
 
 export const imageUrls = [
