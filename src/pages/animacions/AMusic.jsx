@@ -14,14 +14,15 @@ import img2 from "/src/img/animacions/musical/1.jpg"
 import img3 from "/src/img/animacions/musical/2.jpg"
 import img4 from "/src/img/animacions/musical/3.jpg"
 import img5 from "/src/img/animacions/musical/4.jpg"
+import img6 from '/src/img/animacions/musical/5.jpg'
+import img7 from '/src/img/animacions/musical/7.jpg'
+import img8 from '/src/img/animacions/musical/8.jpg'
+import img9 from '/src/img/animacions/musical/9.jpg'
+import img10 from '/src/img/animacions/musical/10.jpg'
+import img11 from '/src/img/animacions/musical/12.jpg'
 
 export const imageUrls = [
-    '/src/img/animacions/musical/5.jpg',
-    '/src/img/animacions/musical/7.jpg',
-    '/src/img/animacions/musical/8.jpg',
-    '/src/img/animacions/musical/9.jpg',
-    '/src/img/animacions/musical/10.jpg',
-    '/src/img/animacions/musical/12.jpg',
+    img6, img7, img8, img9, img10, img11
 ];
 
 
