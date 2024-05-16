@@ -8,13 +8,13 @@ import 'swiper/css';
 import { Navigation } from 'swiper/modules';
 
 // IMGS
-import img1 from "/src/img/extraescolars/legoblocks/Principal.jpg"
-import img2 from "/src/img/extraescolars/legoblocks/1.jpg"
-import img3 from "/src/img/extraescolars/legoblocks/2.jpg"
-import img4 from "/src/img/extraescolars/legoblocks/3.jpg"
-import img5 from "/src/img/extraescolars/legoblocks/4.jpg"
-import img6 from "/src/img/extraescolars/legoblocks/5.jpg"
-import img7 from "/src/img/extraescolars/legoblocks/6.jpg"
+import img1 from "/src/img/extraescolars/legoblocks/Principal.webp"
+import img2 from "/src/img/extraescolars/legoblocks/1.webp"
+import img3 from "/src/img/extraescolars/legoblocks/2.webp"
+import img4 from "/src/img/extraescolars/legoblocks/3.webp"
+import img5 from "/src/img/extraescolars/legoblocks/4.webp"
+import img6 from "/src/img/extraescolars/legoblocks/5.webp"
+import img7 from "/src/img/extraescolars/legoblocks/6.webp"
 import img8 from "/src/img/extraescolars/legoblocks/7.jpg"
 import { FooterComponent } from "../../components/FooterComponent";
 
