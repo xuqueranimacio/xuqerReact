@@ -127,6 +127,7 @@
 }
 
 .activitats-card {
+    position: relative;
     width: 100%;
     display: flex;
     align-items: center;
@@ -136,12 +137,60 @@
     padding: 20px;
     border: 2px solid var(--primary-brand-color);
     border-radius: var(--border-radius);
+    background-color: white;
     
 }
 
+.activitats-card::after{
+    content: "";
+    position: absolute;
+    z-index: -3;
+    background-color: rgb(51, 51, 51, 0.3);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: blur(30px);
+    visibility: hidden;
+    opacity: 0;
+
+    transition: 0.5s;
+}
+
+.activitats-card:hover::after {
+
+    visibility: visible;
+    opacity: 1;
+
+}
+
 .naranja {
+    position: relative;
     background-image: linear-gradient(to right bottom, #ff9f84, #ff9273, #ff8562, #ff7851, #fd6a40);
     border-radius: var(--border-radius);
+}
+
+.naranja::after{
+    content: "";
+    position: absolute;
+    z-index: -3;
+    background-color: rgb(240, 126, 93, 0.5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: blur(30px);
+    visibility: hidden;
+    opacity: 0;
+
+    transition: 0.5s;
+}
+
+.naranja:hover::after {
+
+    visibility: visible;
+    opacity: 1;
+
 }
 
 .activitats-card .info {
