@@ -13,12 +13,16 @@ import multiaventura from "../../img/campaments/multiaventura/Principal.webp"
 import esportius from "../../img/campaments/esportius/Principal.jpg"
 
 import { useEffect } from "react"
+import { Helmet } from "react-helmet";
+
 
 
 export function Campaments(){
     return (
         <>
-
+            <Helmet>
+                <title>Campaments</title>
+            </Helmet>
             <HeaderComponent />
             <SectionTitle>Campaments</SectionTitle>
             <ActivitatsMenu>

@@ -10,11 +10,15 @@ import img3 from "/src/img/animacions/excursions/2.jpg"
 import img4 from "/src/img/animacions/excursions/3.jpg"
 import img5 from "/src/img/animacions/excursions/4.jpg"
 
+import { Helmet } from "react-helmet";
 
 
 export function AExcur() {
     return (
         <>
+            <Helmet>
+                <title>Excursions</title>
+            </Helmet>
             <HeaderComponent />
             <ImageWrapper
                 imgURL={img1}

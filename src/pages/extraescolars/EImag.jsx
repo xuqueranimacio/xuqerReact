@@ -3,6 +3,8 @@ import { ImageWrapper } from "../../components/ImageWrapper"
 import { InfoSectionWrapper, InfoSectionCardLeft, InfoSectionCardRight } from "../../components/InfoSection"
 import { FooterComponent } from "../../components/FooterComponent";
 import { GalleryWrapper } from "../../components/GalleryWrapper";
+import { Helmet } from "react-helmet";
+
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -24,6 +26,9 @@ const imageUrls = [
 export function EImag() {
     return (
         <>
+            <Helmet>
+                <title>Imaginart</title>
+            </Helmet>
             <HeaderComponent />
             <ImageWrapper
                 imgURL={img1}

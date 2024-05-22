@@ -11,11 +11,15 @@ import img4 from "/src/img/animacions/jocs de fusta/3.png"
 import img5 from "/src/img/animacions/jocs de fusta/4.png"
 import img6 from "/src/img/animacions/jocs de fusta/5.png"
 
+import { Helmet } from "react-helmet";
 
 
 export function AJFusta() {
     return (
         <>
+            <Helmet>
+                <title>Jocs de Fusta</title>
+            </Helmet>
             <HeaderComponent />
             <ImageWrapper
                 imgURL={img1}

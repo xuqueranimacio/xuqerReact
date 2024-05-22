@@ -15,11 +15,17 @@ import img3 from "/src/img/animacions/tallers/2.jpg"
 import img4 from "/src/img/animacions/tallers/3.jpg"
 import img5 from "/src/img/animacions/tallers/4.jpg"
 
+import { Helmet } from "react-helmet";
+
+
 
 
 export function ATall() {
     return (
         <>
+            <Helmet>
+                <title>Tallers</title>
+            </Helmet>
             <HeaderComponent />
             <ImageWrapper
                 imgURL={img1}

@@ -10,11 +10,15 @@ import img3 from "/src/img/animacions/aniversaris/5.jpg"
 import img4 from "/src/img/animacions/aniversaris/6.jpg"
 import img5 from "/src/img/animacions/aniversaris/4.jpg"
 
+import { Helmet } from "react-helmet";
 
 
 export function AAniv() {
     return (
         <>
+            <Helmet>
+                <title>Aniversaris</title>
+            </Helmet>
             <HeaderComponent />
             <ImageWrapper
                 imgURL={img1}

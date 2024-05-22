@@ -10,11 +10,15 @@ import img3 from "/src/img/animacions/comunions/2.jpg"
 import img4 from "/src/img/animacions/comunions/3.jpg"
 import img5 from "/src/img/animacions/comunions/4.jpg"
 
+import { Helmet } from "react-helmet";
 
 
 export function ACom() {
     return (
         <>
+            <Helmet>
+                <title>Comunions</title>
+            </Helmet>
             <HeaderComponent />
             <ImageWrapper
                 imgURL={img1}

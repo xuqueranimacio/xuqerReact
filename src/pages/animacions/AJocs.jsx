@@ -10,11 +10,15 @@ import img3 from "/src/img/animacions/jocs populars/2.jpg"
 import img4 from "/src/img/animacions/jocs populars/3.jpg"
 import img5 from "/src/img/animacions/jocs populars/4.jpg"
 
+import { Helmet } from "react-helmet";
 
 
 export function AJocs() {
     return (
         <>
+            <Helmet>
+                <title>Jocs Populars</title>
+            </Helmet>
             <HeaderComponent />
             <ImageWrapper
                 imgURL={img1}

@@ -2,6 +2,8 @@ import { HeaderComponent } from "../../components/HeaderComponent"
 import { ImageWrapper } from "../../components/ImageWrapper"
 import { InfoSectionWrapper, InfoSectionCardLeft, InfoSectionCardRight } from "../../components/InfoSection"
 import { GalleryWrapper } from "../../components/GalleryWrapper"
+import { Helmet } from "react-helmet";
+
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -27,6 +29,9 @@ const imageUrls = [
 export function EPati() {
     return (
         <>
+            <Helmet>
+                <title>Patinatge | Xúquer Animació</title>
+            </Helmet>
             <HeaderComponent />
             <ImageWrapper
                 imgURL={img1}

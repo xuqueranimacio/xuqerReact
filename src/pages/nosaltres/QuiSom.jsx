@@ -2,6 +2,7 @@ import { HeaderComponent } from "../../components/HeaderComponent"
 import { ImageWrapper } from "../../components/ImageWrapper"
 import { InfoSectionWrapperCustom, InfoSectionCardLeft, InfoSectionCardRight } from "../../components/InfoSection"
 import { GalleryWrapper } from "../../components/GalleryWrapper"
+import { Helmet } from "react-helmet";
 
 // IMGS
 import img1 from "/src/img/nosaltres/quisom/Principal.jpg"
@@ -15,6 +16,9 @@ import { FooterComponent } from "../../components/FooterComponent";
 export function QuiSom() {
     return (
         <>
+            <Helmet>
+                <title>Qui Som</title>
+            </Helmet>
             <HeaderComponent />
             <ImageWrapper
                 imgURL={img1}

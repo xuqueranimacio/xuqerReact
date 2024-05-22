@@ -18,12 +18,17 @@ import comunions from "../../img/animacions/comunions/Principal.jpg"
 
 import { useEffect } from "react"
 
+import { Helmet } from "react-helmet";
+
+
 
 export function Animacions() {
 
     return (
         <>
-
+            <Helmet>
+                <title>Animacions</title>
+            </Helmet>
             <HeaderComponent />
             <SectionTitle>Animacions</SectionTitle>
             <ActivitatsMenu>

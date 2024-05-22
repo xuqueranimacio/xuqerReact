@@ -1,7 +1,7 @@
 import { HeaderComponent } from "../../components/HeaderComponent"
 import { ImageWrapper } from "../../components/ImageWrapper"
 import { InfoSectionWrapperCustom, InfoSectionCardLeft, InfoSectionCardRight } from "../../components/InfoSection"
-
+import { Helmet } from "react-helmet";
 // IMGS
 import img1 from "/src/img/nosaltres/metodologia/Principal.jpg"
 import img2 from "/src/img/nosaltres/metodologia/2.jpg"
@@ -14,6 +14,9 @@ import { FooterComponent } from "../../components/FooterComponent";
 export function Metodologia() {
     return (
         <>
+            <Helmet>
+                <title>Metodologia</title>
+            </Helmet>
             <HeaderComponent />
             <ImageWrapper
                 imgURL={img1}

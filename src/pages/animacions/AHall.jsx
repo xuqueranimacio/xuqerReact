@@ -26,11 +26,14 @@ export const imageUrls = [
     img6, img7, img8, img9, img10, img11, img12
 ];
 
-
+import { Helmet } from "react-helmet";
 
 export function AHall() {
     return (
         <>
+            <Helmet>
+                <title>Halloween</title>
+            </Helmet>
             <HeaderComponent />
             <ImageWrapper
                 imgURL={img1}

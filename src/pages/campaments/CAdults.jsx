@@ -27,11 +27,17 @@ export const imageUrls = [
     img10
 ];
 
+import { Helmet } from "react-helmet";
+
+
 
 
 export function CAdults() {
     return (
         <>
+            <Helmet>
+                <title>Campament d'Adults</title>
+            </Helmet>
             <HeaderComponent />
             <ImageWrapper
                 imgURL={img1}

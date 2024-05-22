@@ -6,6 +6,8 @@ import { GalleryWrapper } from "../../components/GalleryWrapper"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { Navigation } from 'swiper/modules';
+import { Helmet } from "react-helmet";
+
 
 // IMGS
 import img1 from "/src/img/extraescolars/minixef/Principal.png"
@@ -25,6 +27,9 @@ export const imageUrls = [
 export function EMini() {
     return (
         <>
+            <Helmet>
+                <title>Minixef | Xúquer Animació</title>
+            </Helmet>
             <HeaderComponent />
             <ImageWrapper
                 imgURL={img1}

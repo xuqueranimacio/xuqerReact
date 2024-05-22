@@ -25,11 +25,15 @@ export const imageUrls = [
     img6, img7, img8, img9, img10, img11
 ];
 
+import { Helmet } from "react-helmet";
 
 
 export function AMusic() {
     return (
         <>
+            <Helmet>
+                <title>Musicals</title>
+            </Helmet>
             <HeaderComponent />
             <ImageWrapper
                 imgURL={img1}

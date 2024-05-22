@@ -13,12 +13,17 @@ import img7 from "/src/img/campaments/esportius/6.jpg"
 import img8 from "/src/img/campaments/esportius/7.jpg"
 import img9 from "/src/img/campaments/esportius/8.jpg"
 import { FooterComponent } from "../../components/FooterComponent";
+import { Helmet } from "react-helmet";
+
 
 
 
 export function CEsportius() {
     return (
         <>
+            <Helmet>
+                <title>Campament Esportius</title>    
+            </Helmet>
             <HeaderComponent />
             <ImageWrapper
                 imgURL={img1}

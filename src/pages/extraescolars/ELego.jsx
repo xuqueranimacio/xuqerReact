@@ -3,6 +3,8 @@ import { ImageWrapper } from "../../components/ImageWrapper"
 import { InfoSectionWrapper, InfoSectionCardLeft, InfoSectionCardRight } from "../../components/InfoSection"
 import { GalleryWrapper } from "../../components/GalleryWrapper"
 
+import { Helmet } from "react-helmet";
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { Navigation } from 'swiper/modules';
@@ -26,6 +28,9 @@ export const imageUrls = [
 export function ELego() {
     return (
         <>
+            <Helmet>
+                <title>LegoBlocks</title>
+            </Helmet>
             <HeaderComponent />
             <ImageWrapper
                 imgURL={img1}

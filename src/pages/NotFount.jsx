@@ -1,6 +1,7 @@
 import { FooterComponent } from "../components/FooterComponent";
 import { HeaderComponent } from "../components/HeaderComponent";
 import { InfoSectionWrapperCustom } from "../components/InfoSection";
+import { Helmet } from "react-helmet";
 
 export function NotFound(){
     return(

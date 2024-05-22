@@ -6,6 +6,7 @@ import { GalleryWrapper } from "../../components/GalleryWrapper"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { Navigation } from 'swiper/modules';
+import { Helmet } from "react-helmet";
 
 // IMGS
 import img1 from "/src/img/extraescolars/diverciencia/Principal.png"
@@ -28,6 +29,9 @@ export const imageUrls = [
 export function EDiver() {
     return (
         <>
+            <Helmet>
+                <title>Diverciència</title>
+            </Helmet>
             <HeaderComponent />
             <ImageWrapper
                 imgURL={img1}

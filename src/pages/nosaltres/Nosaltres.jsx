@@ -12,13 +12,16 @@ import equip from "../../img/nosaltres/equip/Principal.jpg"
 import treballa from "../../img/nosaltres/trabajo.jpg"
 
 import { useEffect } from "react"
+import { Helmet } from "react-helmet";
 
 
 export function Nosaltres() {
 
     return (
         <>
-
+            <Helmet>
+                <title>Nosaltres</title>
+            </Helmet>
             <HeaderComponent />
             <SectionTitle>Nosaltres</SectionTitle>
             <ActivitatsMenu>

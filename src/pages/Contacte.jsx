@@ -1,9 +1,13 @@
 import { HeaderComponent } from "../components/HeaderComponent"
 import { FooterComponent } from "../components/FooterComponent";
+import { Helmet } from "react-helmet";
 
 export function Contacte() {
     return (
         <>
+            <Helmet>
+                <title>Contacte</title>
+            </Helmet>
             <HeaderComponent />
             <section className="container formContainer">
           <form

@@ -1,6 +1,7 @@
 import { HeaderComponent } from "../../components/HeaderComponent"
 import { ImageWrapper } from "../../components/ImageWrapper"
 import { InfoSectionWrapper, InfoSectionCardLeft, InfoSectionCardRight } from "../../components/InfoSection"
+import { Helmet } from "react-helmet";
 
 // IMGS
 import img1 from "/src/img/campaments/pasqua/Principal.jpg"
@@ -19,6 +20,9 @@ import { FooterComponent } from "../../components/FooterComponent";
 export function CPasqua() {
     return (
         <>
+            <Helmet>
+                <title>Campament de Pasqua</title>
+            </Helmet>
             <HeaderComponent />
             <ImageWrapper
                 imgURL={img1}

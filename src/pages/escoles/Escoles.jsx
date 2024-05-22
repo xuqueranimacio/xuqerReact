@@ -4,6 +4,8 @@ import { ActivitatsMenu } from "../../components/ActivitatsMenu"
 import { ActivitatsCard } from "../../components/ActivitatsCard"
 import { ActivitatsCardNaranja } from "../../components/ActivitatsCardNaranja"
 import { FooterComponent } from "../../components/FooterComponent"
+import { Helmet } from "react-helmet";
+
 
 
 // IMAGES
@@ -18,6 +20,9 @@ export function Escoles(){
 
     return (
         <>
+            <Helmet>
+                <title>Escoles de Vacances</title>
+            </Helmet>
 
             <HeaderComponent />
             <SectionTitle>Escoles de Vacances</SectionTitle>

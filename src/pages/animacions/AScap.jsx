@@ -8,9 +8,15 @@ import img1 from "/src/img/animacions/scape room/Principal.jpg"
 import img2 from "/src/img/animacions/scape room/1.jpg"
 import img3 from "/src/img/animacions/scape room/2.jpg"
 
+import { Helmet } from "react-helmet";
+
+
 export function AScap() {
     return (
         <>
+            <Helmet>
+                <title>Escape Room</title>
+            </Helmet>
             <HeaderComponent />
             <ImageWrapper
                 imgURL={img1}
