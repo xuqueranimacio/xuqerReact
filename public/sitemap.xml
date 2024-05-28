@@ -1,33 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://www.xuqueranimacio.es/</loc>
-    <lastmod>2024-05-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.xuqueranimacio.es/campaments</loc>
-    <lastmod>2024-05-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.xuqueranimacio.es/escoles-de-vacances</loc>
-    <lastmod>2024-05-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.xuqueranimacio.es/extraescolars</loc>
-    <lastmod>2024-05-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.xuqueranimacio.es/animacions</loc>
-    <lastmod>2024-05-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-</urlset>
+<url>
+  <loc>https://www.xuqueranimacio.es/</loc>
+  <changefreq>daily</changefreq>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://www.xuqueranimacio.es/nosaltres</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.xuqueranimacio.es/nosaltres/qui-som</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.xuqueranimacio.es/nosaltres/metodologia</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.xuqueranimacio.es/nosaltres/valors</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.xuqueranimacio.es/nosaltres/equip</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.xuqueranimacio.es/contacte</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.xuqueranimacio.es/campaments</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.xuqueranimacio.es/campaments/estiu</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.xuqueranimacio.es/campaments/nadal</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.xuqueranimacio.es/campaments/pasqua</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.xuqueranimacio.es/campaments/adults</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.xuqueranimacio.es/campaments/multiaventura</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.xuqueranimacio.es/campaments/esportius</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.xuqueranimacio.es/escoles-de-vacances</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.xuqueranimacio.es/escoles-de-vacances/estiu</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.xuqueranimacio.es/escoles-de-vacances/nadal</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.xuqueranimacio.es/escoles-de-vacances/pasqua</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.xuqueranimacio.es/animacions</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.xuqueranimacio.es/animacions/aniversaris</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.xuqueranimacio.es/animacions/comunions</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.xuqueranimacio.es/animacions/jocs-de-fusta</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.xuqueranimacio.es/animacions/scape-room</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.xuqueranimacio.es/animacions/jocs-populars</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.xuqueranimacio.es/animacions/gimcanes</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.xuqueranimacio.es/extraescolars</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.xuqueranimacio.es/extraescolars/legoblocks</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.xuqueranimacio.es/extraescolars/diverciencia</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.xuqueranimacio.es/extraescolars/minixef</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.xuqueranimacio.es/extraescolars/imaginart</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.xuqueranimacio.es/extraescolars/patinatge</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
